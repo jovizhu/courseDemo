@@ -1,8 +1,8 @@
 ***************************************************************
 Program: ChattyMe (version release 0.3)
-Authors: Wei Zhu (UB#37316757) & Chenliang Xu(UB#37286945)
+Authors: Wei Zhu
 If you found any bug, please contact:
-wzhu4@buffalo.edu    or    chenlian@buffalo.edu
+jovi.zhu@hotmail.com
 ***************************************************************
 
 Q: How to make file in SunOS?
