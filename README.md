@@ -30,7 +30,7 @@ A: Yes. ChattyMe started the server service in the background
    
    
    
-Storage File System
+Storage System
 ==========================
 Authors: Wei Zhu
 jovi.zhu@hotmail.com
