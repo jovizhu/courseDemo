@@ -1,0 +1,1161 @@
+Script started on Sat Dec 11 23:01:25 2010
+fork {~/OS/proj3} > ./bclient MYBS hello
+received response: olleh 
+fork {~/OS/proj3} > ./bclient MYBS hello
+received response: olleh 
+fork {~/OS/proj3} > ./bclient MYBS hello[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Klsclient MYLS
+send_line is ls  
+read count is 8000 
+received response: 
+MYBS
+MYLS
+Makefile
+Readme.txt
+bclient
+bclient.c
+bserver
+bserver.c
+dclient
+dclient.c
+dserver
+dserver.c
+fclient
+fclient.c
+fserver
+fserver.c
+jovi.h
+lsclient
+lsclient.c
+lsserver
+lsserver.c
+myappend
+myappend.c
+mycat
+mycat.c
+mycp
+mycp.c
+mygradclient
+myls
+myls.c
+myls1
+myls1.c
+mymv
+mymv.c
+mynewfs
+mynewfs.c
+myrm
+myrm.c
+mywrite
+mywrite.c
+stdindclient
+stdindclient.c
+test
+testrun.txt
+testrunClient
+ 
+fork {~/OS/proj3} > ./lsclient MYLS -l
+send_line is ls -l  
+read count is 8000 
+received response: 
+total 380
+srwxr-xr-x  1 wzhu4  csgrad      0 Dec 11 22:59 MYBS
+srwxr-xr-x  1 wzhu4  csgrad      0 Dec 11 23:02 MYLS
+-rw-r--r--  1 wzhu4  csgrad   1280 Dec  8 22:19 Makefile
+-rw-r--r--  1 wzhu4  csgrad    277 Dec 11 22:57 Readme.txt
+-rwxr-xr-x  1 wzhu4  csgrad   8433 Dec 11 22:59 bclient
+-rw-r--r--  1 wzhu4  csgrad   1139 Dec 11 22:52 bclient.c
+-rwxr-xr-x  1 wzhu4  csgrad   9718 Dec 11 22:59 bserver
+-rw-r--r--  1 wzhu4  csgrad   2387 Nov 17 11:07 bserver.c
+-rwxr-xr-x  1 wzhu4  csgrad  10412 Dec 11 22:59 dclient
+-rw-r--r--  1 wzhu4  csgrad   3243 Dec  8 23:01 dclient.c
+-rwxr-xr-x  1 wzhu4  csgrad  12889 Dec 11 22:59 dserver
+-rw-r--r--  1 wzhu4  csgrad   8640 Dec  8 23:46 dserver.c
+-rwxr-xr-x  1 wzhu4  csgrad  10008 Dec 11 22:59 fclient
+-rw-r--r--  1 wzhu4  csgrad   1604 Nov 30 19:58 fclient.c
+-rwxr-xr-x  1 wzhu4  csgrad  23222 Dec 11 22:59 fserver
+-rw-r--r--  1 wzhu4  csgrad  31004 Dec  8 23:30 fserver.c
+-rw-r--r--  1 wzhu4  csgrad    684 Dec  7 12:06 jovi.h
+-rwxr-xr-x  1 wzhu4  csgrad   8852 Dec 11 22:59 lsclient
+-rw-r--r--  1 wzhu4  csgrad   1340 Dec  8 22:22 lsclient.c
+-rwxr-xr-x  1 wzhu4  csgrad  10594 Dec 11 22:59 lsserver
+-rwxr-xr-x  1 wzhu4  csgrad   3917 Nov 17 21:04 lsserver.c
+-rwxr-xr-x  1 wzhu4  csgrad  10009 Dec 11 22:59 myappend
+-rw-r--r--  1 wzhu4  csgrad   1768 Dec  6 00:13 myappend.c
+-rwxr-xr-x  1 wzhu4  csgrad   9770 Dec 11 22:59 mycat
+-rw-r--r--  1 wzhu4  csgrad   1678 Dec  7 11:12 mycat.c
+-rwxr-xr-x  1 wzhu4  csgrad   9720 Dec 11 22:59 mycp
+-rw-r--r--  1 wzhu4  csgrad   2876 Dec  6 02:26 mycp.c
+-rwxr-xr-x  1 wzhu4  csgrad   1093 Dec  8 23:55 mygradclient
+-rwxr-xr-x  1 wzhu4  csgrad   8599 Dec 11 22:59 myls
+-rw-r--r--  1 wzhu4  csgrad   1278 Dec  6 00:18 myls.c
+-rwxr-xr-x  1 wzhu4  csgrad   8600 Dec 11 22:59 myls1
+-rw-r--r--  1 wzhu4  csgrad   1278 Dec  7 10:35 myls1.c
+-rwxr-xr-x  1 wzhu4  csgrad   9912 Dec 11 22:59 mymv
+-rw-r--r--  1 wzhu4  csgrad   3472 Dec  6 11:49 mymv.c
+-rwxr-xr-x  1 wzhu4  csgrad   8323 Dec 11 22:59 mynewfs
+-rw-r--r--  1 wzhu4  csgrad   1168 Dec  6 00:52 mynewfs.c
+-rwxr-xr-x  1 wzhu4  csgrad   8832 Dec 11 22:59 myrm
+-rw-r--r--  1 wzhu4  csgrad   1460 Dec  6 00:22 myrm.c
+-rwxr-xr-x  1 wzhu4  csgrad  10032 Dec 11 22:59 mywrite
+-rw-r--r--  1 wzhu4  csgrad   2815 Dec  7 10:42 mywrite.c
+-rwxr-xr-x  1 wzhu4  csgrad   9914 Dec 11 22:59 stdindclient
+-rw-r--r--  1 wzhu4  csgrad   1638 Dec  8 22:55 stdindclient.c
+-rw-------  1 wzhu4  csgrad  12800 Dec  8 23:56 test
+-rw-r--r--  1 wzhu4  csgrad   1006 Dec 11 23:02 testrun.txt
+-rw-r--r--  1 wzhu4  csgrad    866 Dec 11 23:02 testrunClient
+ 
+fork {~/OS/proj3} > ./lsclient MYLS -l -r
+send_line is ls -l -r  
+read count is 8000 
+received response: 
+total 380
+-rw-r--r--  1 wzhu4  csgrad    866 Dec 11 23:02 testrunClient
+-rw-r--r--  1 wzhu4  csgrad   1006 Dec 11 23:02 testrun.txt
+-rw-------  1 wzhu4  csgrad  12800 Dec  8 23:56 test
+-rw-r--r--  1 wzhu4  csgrad   1638 Dec  8 22:55 stdindclient.c
+-rwxr-xr-x  1 wzhu4  csgrad   9914 Dec 11 22:59 stdindclient
+-rw-r--r--  1 wzhu4  csgrad   2815 Dec  7 10:42 mywrite.c
+-rwxr-xr-x  1 wzhu4  csgrad  10032 Dec 11 22:59 mywrite
+-rw-r--r--  1 wzhu4  csgrad   1460 Dec  6 00:22 myrm.c
+-rwxr-xr-x  1 wzhu4  csgrad   8832 Dec 11 22:59 myrm
+-rw-r--r--  1 wzhu4  csgrad   1168 Dec  6 00:52 mynewfs.c
+-rwxr-xr-x  1 wzhu4  csgrad   8323 Dec 11 22:59 mynewfs
+-rw-r--r--  1 wzhu4  csgrad   3472 Dec  6 11:49 mymv.c
+-rwxr-xr-x  1 wzhu4  csgrad   9912 Dec 11 22:59 mymv
+-rw-r--r--  1 wzhu4  csgrad   1278 Dec  7 10:35 myls1.c
+-rwxr-xr-x  1 wzhu4  csgrad   8600 Dec 11 22:59 myls1
+-rw-r--r--  1 wzhu4  csgrad   1278 Dec  6 00:18 myls.c
+-rwxr-xr-x  1 wzhu4  csgrad   8599 Dec 11 22:59 myls
+-rwxr-xr-x  1 wzhu4  csgrad   1093 Dec  8 23:55 mygradclient
+-rw-r--r--  1 wzhu4  csgrad   2876 Dec  6 02:26 mycp.c
+-rwxr-xr-x  1 wzhu4  csgrad   9720 Dec 11 22:59 mycp
+-rw-r--r--  1 wzhu4  csgrad   1678 Dec  7 11:12 mycat.c
+-rwxr-xr-x  1 wzhu4  csgrad   9770 Dec 11 22:59 mycat
+-rw-r--r--  1 wzhu4  csgrad   1768 Dec  6 00:13 myappend.c
+-rwxr-xr-x  1 wzhu4  csgrad  10009 Dec 11 22:59 myappend
+-rwxr-xr-x  1 wzhu4  csgrad   3917 Nov 17 21:04 lsserver.c
+-rwxr-xr-x  1 wzhu4  csgrad  10594 Dec 11 22:59 lsserver
+-rw-r--r--  1 wzhu4  csgrad   1340 Dec  8 22:22 lsclient.c
+-rwxr-xr-x  1 wzhu4  csgrad   8852 Dec 11 22:59 lsclient
+-rw-r--r--  1 wzhu4  csgrad    684 Dec  7 12:06 jovi.h
+-rw-r--r--  1 wzhu4  csgrad  31004 Dec  8 23:30 fserver.c
+-rwxr-xr-x  1 wzhu4  csgrad  23222 Dec 11 22:59 fserver
+-rw-r--r--  1 wzhu4  csgrad   1604 Nov 30 19:58 fclient.c
+-rwxr-xr-x  1 wzhu4  csgrad  10008 Dec 11 22:59 fclient
+-rw-r--r--  1 wzhu4  csgrad   8640 Dec  8 23:46 dserver.c
+-rwxr-xr-x  1 wzhu4  csgrad  12889 Dec 11 22:59 dserver
+-rw-r--r--  1 wzhu4  csgrad   3243 Dec  8 23:01 dclient.c
+-rwxr-xr-x  1 wzhu4  csgrad  10412 Dec 11 22:59 dclient
+-rw-r--r--  1 wzhu4  csgrad   2387 Nov 17 11:07 bserver.c
+-rwxr-xr-x  1 wzhu4  csgrad   9718 Dec 11 22:59 bserver
+-rw-r--r--  1 wzhu4  csgrad   1139 Dec 11 22:52 bclient.c
+-rwxr-xr-x  1 wzhu4  csgrad   8433 Dec 11 22:59 bclient
+-rw-r--r--  1 wzhu4  csgrad    277 Dec 11 22:57 Readme.txt
+-rw-r--r--  1 wzhu4  csgrad   1280 Dec  8 22:19 Makefile
+srwxr-xr-x  1 wzhu4  csgrad      0 Dec 11 23:02 MYLS
+srwxr-xr-x  1 wzhu4  csgrad      0 Dec 11 22:59 MYBS
+ 
+fork {~/OS/proj3} > ./st[K[K[K[Kst[K[K./stdinclient MYDS
+./stdinclient: Command not found.
+fork {~/OS/proj3} > ./stdindclient MYDS
+initial the parameter
+created socket
+loop entered
+I
+command line is I
+send_line is I
+read count is 4 
+received response: 5 10 
+loop entered
+W 1 1 3 abc
+command line is W 1 1 3 abc
+send_line is W 1 1 3 abc
+read count is 1 
+received response: 1 
+loop entered
+R 1 1
+command line is R 1 1
+send_line is R 1 1
+read count is 257 
+received response: 1abc 
+loop entered
+^C
+fork {~/OS/proj3} > ./dclient MYDS 100
+initial the parameter
+Loop Number is set to 100
+created socket
+Received:"5 10"Disk server has 5 tracks / 10 sectors per track
+loop: 100 
+command line is R 4 3
+read result is 1
+-----------------------------
+
+loop: 99 
+command line is W 0 2
+read result is 1
+-----------------------------
+
+loop: 98 
+command line is W 3 3
+read result is 1
+-----------------------------
+
+loop: 97 
+command line is R 0 5
+read result is 1
+-----------------------------
+
+loop: 96 
+command line is W 2 7
+read result is 1
+-----------------------------
+
+loop: 95 
+command line is R 2 9
+read result is 1
+-----------------------------
+
+loop: 94 
+command line is W 2 3
+read result is 1
+-----------------------------
+
+loop: 93 
+command line is R 4 7
+read result is 1
+-----------------------------
+
+loop: 92 
+command line is W 3 9
+read result is 1
+-----------------------------
+
+loop: 91 
+command line is W 1 5
+read result is 1
+-----------------------------
+
+loop: 90 
+command line is R 1 2
+read result is 1
+-----------------------------
+
+loop: 89 
+command line is R 0 3
+read result is 1
+-----------------------------
+
+loop: 88 
+command line is R 4 9
+read result is 1
+-----------------------------
+
+loop: 87 
+command line is R 2 2
+read result is 1
+-----------------------------
+
+loop: 86 
+command line is R 1 5
+read result is 1
+-----------------------------
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu1
+loop: 85 
+command line is R 3 1
+read result is 1
+-----------------------------
+
+loop: 84 
+command line is W 2 1
+read result is 1
+-----------------------------
+
+loop: 83 
+command line is R 3 4
+read result is 1
+-----------------------------
+
+loop: 82 
+command line is W 0 4
+read result is 1
+-----------------------------
+
+loop: 81 
+command line is W 0 3
+read result is 1
+-----------------------------
+
+loop: 80 
+command line is W 1 9
+read result is 1
+-----------------------------
+
+loop: 79 
+command line is W 1 3
+read result is 1
+-----------------------------
+
+loop: 78 
+command line is R 3 8
+read result is 1
+-----------------------------
+
+loop: 77 
+command line is R 3 1
+read result is 1
+-----------------------------
+
+loop: 76 
+command line is R 3 5
+read result is 1
+-----------------------------
+
+loop: 75 
+command line is W 3 6
+read result is 1
+-----------------------------
+
+loop: 74 
+command line is R 4 5
+read result is 1
+-----------------------------
+
+loop: 73 
+command line is W 4 1
+read result is 1
+-----------------------------
+
+loop: 72 
+command line is R 0 5
+read result is 1
+-----------------------------
+
+loop: 71 
+command line is W 1 8
+read result is 1
+-----------------------------
+
+loop: 70 
+command line is W 3 5
+read result is 1
+-----------------------------
+
+loop: 69 
+command line is W 2 6
+read result is 1
+-----------------------------
+
+loop: 68 
+command line is W 2 8
+read result is 1
+-----------------------------
+
+loop: 67 
+command line is W 1 7
+read result is 1
+-----------------------------
+
+loop: 66 
+command line is R 3 7
+read result is 1
+-----------------------------
+
+loop: 65 
+command line is W 2 7
+read result is 1
+-----------------------------
+
+loop: 64 
+command line is W 4 9
+read result is 1
+-----------------------------
+
+loop: 63 
+command line is R 0 5
+read result is 1
+-----------------------------
+
+loop: 62 
+command line is R 3 2
+read result is 1
+-----------------------------
+
+loop: 61 
+command line is R 3 2
+read result is 1
+-----------------------------
+
+loop: 60 
+command line is W 2 4
+read result is 1
+-----------------------------
+
+loop: 59 
+command line is W 0 8
+read result is 1
+-----------------------------
+
+loop: 58 
+command line is R 0 6
+read result is 1
+-----------------------------
+
+loop: 57 
+command line is W 2 5
+read result is 1
+-----------------------------
+
+loop: 56 
+command line is W 2 7
+read result is 1
+-----------------------------
+
+loop: 55 
+command line is R 0 2
+read result is 1
+-----------------------------
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu1
+loop: 54 
+command line is R 1 0
+read result is 1
+-----------------------------
+
+loop: 53 
+command line is R 3 7
+read result is 1
+-----------------------------
+
+loop: 52 
+command line is W 0 0
+read result is 1
+-----------------------------
+
+loop: 51 
+command line is R 0 6
+read result is 1
+-----------------------------
+
+loop: 50 
+command line is W 3 5
+read result is 1
+-----------------------------
+
+loop: 49 
+command line is R 4 3
+read result is 1
+-----------------------------
+
+loop: 48 
+command line is R 0 5
+read result is 1
+-----------------------------
+
+loop: 47 
+command line is W 3 6
+read result is 1
+-----------------------------
+
+loop: 46 
+command line is R 0 8
+read result is 1
+-----------------------------
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu1
+loop: 45 
+command line is W 0 4
+read result is 1
+-----------------------------
+
+loop: 44 
+command line is W 4 6
+read result is 1
+-----------------------------
+
+loop: 43 
+command line is W 3 8
+read result is 1
+-----------------------------
+
+loop: 42 
+command line is W 0 0
+read result is 1
+-----------------------------
+
+loop: 41 
+command line is R 3 7
+read result is 1
+-----------------------------
+
+loop: 40 
+command line is R 2 2
+read result is 1
+-----------------------------
+
+loop: 39 
+command line is R 2 5
+read result is 1
+-----------------------------
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu1
+loop: 38 
+command line is W 0 3
+read result is 1
+-----------------------------
+
+loop: 37 
+command line is W 4 8
+read result is 1
+-----------------------------
+
+loop: 36 
+command line is R 0 5
+read result is 1
+-----------------------------
+
+loop: 35 
+command line is W 2 1
+read result is 1
+-----------------------------
+
+loop: 34 
+command line is R 2 4
+read result is 1
+-----------------------------
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu1
+loop: 33 
+command line is R 3 6
+read result is 1
+-----------------------------
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu1
+loop: 32 
+command line is W 0 1
+read result is 1
+-----------------------------
+
+loop: 31 
+command line is R 4 7
+read result is 1
+-----------------------------
+
+loop: 30 
+command line is R 2 5
+read result is 1
+-----------------------------
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu1
+loop: 29 
+command line is W 2 1
+read result is 1
+-----------------------------
+
+loop: 28 
+command line is W 2 1
+read result is 1
+-----------------------------
+
+loop: 27 
+command line is R 0 8
+read result is 1
+-----------------------------
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu1
+loop: 26 
+command line is R 1 7
+read result is 1
+-----------------------------
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu1
+loop: 25 
+command line is R 4 1
+read result is 1
+-----------------------------
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu1
+loop: 24 
+command line is W 1 2
+read result is 1
+-----------------------------
+
+loop: 23 
+command line is W 4 4
+read result is 1
+-----------------------------
+
+loop: 22 
+command line is R 4 7
+read result is 1
+-----------------------------
+
+loop: 21 
+command line is R 3 9
+read result is 1
+-----------------------------
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu1
+loop: 20 
+command line is W 0 5
+read result is 1
+-----------------------------
+
+loop: 19 
+command line is W 3 2
+read result is 1
+-----------------------------
+
+loop: 18 
+command line is W 3 9
+read result is 1
+-----------------------------
+
+loop: 17 
+command line is R 4 8
+read result is 1
+-----------------------------
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu1
+loop: 16 
+command line is W 2 1
+read result is 1
+-----------------------------
+
+loop: 15 
+command line is R 3 1
+read result is 1
+-----------------------------
+
+loop: 14 
+command line is R 4 9
+read result is 1
+-----------------------------
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu1
+loop: 13 
+command line is R 4 0
+read result is 1
+-----------------------------
+
+loop: 12 
+command line is R 3 4
+read result is 1
+-----------------------------
+
+loop: 11 
+command line is W 2 5
+read result is 1
+-----------------------------
+
+loop: 10 
+command line is R 0 0
+read result is 1
+-----------------------------
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu1
+loop: 9 
+command line is W 4 7
+read result is 1
+-----------------------------
+
+loop: 8 
+command line is W 4 0
+read result is 1
+-----------------------------
+
+loop: 7 
+command line is W 1 2
+read result is 1
+-----------------------------
+
+loop: 6 
+command line is W 2 4
+read result is 1
+-----------------------------
+
+loop: 5 
+command line is R 3 5
+read result is 1
+-----------------------------
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu1
+loop: 4 
+command line is W 4 9
+read result is 1
+-----------------------------
+
+loop: 3 
+command line is R 3 3
+read result is 1
+-----------------------------
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu1
+loop: 2 
+command line is R 2 3
+read result is 1
+-----------------------------
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu1
+loop: 1 
+command line is W 0 6
+read result is 1
+-----------------------------
+
+fork {~/OS/proj3} > ./dclient MYFS
+initial the parameter
+Usage: dclient MYFS LoopNum
+fork {~/OS/proj3} > ./fclient MYFS
+F>
+command line is F
+send_line is F
+>C file1
+command line is C file1
+send_line is C file1
+read count is 1 
+received response: 0 
+>W file1 4 abcd
+command line is W file1 4 abcd
+send_line is W file1 4 abcd
+read count is 1 
+received response: 1 
+>A file1 4 a efgh
+command line is A file1 4 efgh
+send_line is A file1 4 efgh
+read count is 1 
+received response: 1 
+fork {~/OS/proj3} > ls
+MYBS			dserver.c		mycat			mynewfs.c
+MYFS			fclient			mycat.c			myrm
+MYLS			fclient.c		mycp			myrm.c
+Makefile		fserver			mycp.c			mywrite
+Readme.txt		fserver.c		mygradclient		mywrite.c
+bclient			jovi.h			myls			stdindclient
+bclient.c		lsclient		myls.c			stdindclient.c
+bserver			lsclient.c		myls1			test
+bserver.c		lsserver		myls1.c			test1
+dclient			lsserver.c		mymv			testrun.txt
+dclient.c		myappend		mymv.c			testrunClient
+dserver			myappend.c		mynewfs			testrunFServer.txt
+fork {~/OS/proj3} > rm MYFS
+remove MYFS? y
+fork {~/OS/proj3} > rm MYBS
+remove MYBS? y
+fork {~/OS/proj3} > rm MYLS
+remove MYLS? y
+fork {~/OS/proj3} > ls
+Makefile		fserver			mycp.c			mywrite
+Readme.txt		fserver.c		mygradclient		mywrite.c
+bclient			jovi.h			myls			stdindclient
+bclient.c		lsclient		myls.c			stdindclient.c
+bserver			lsclient.c		myls1			test
+bserver.c		lsserver		myls1.c			test1
+dclient			lsserver.c		mymv			testrun.txt
+dclient.c		myappend		mymv.c			testrunClient
+dserver			myappend.c		mynewfs			testrunFServer.txt
+dserver.c		mycat			mynewfs.c
+fclient			mycat.c			myrm
+fclient.c		mycp			myrm.c
+fork {~/OS/proj3} > lsrm MYLSBSFS[7Dls[K./fclient MYFS[12Dd[11CDS 100[16Dstdindclient MYDS[12Dclient MYDS[K[16Dlsclient MYLS -l -r[K -r[19Dstdinclient MYDS[K[16Dlsclient MYLS -l -r[K[K -l -r[19Dstdinclient MYDS[K[11Ddclient MYDS[17Ddclient MYDS 100[K[6DFS[K[12Df[11C
+>C file1
+command line is C file1
+send_line is C file1
+read count is 1 
+received response: 0 
+>W file1 4 abcd
+command line is W file1 4 abcd
+send_line is W file1 4 abcd
+read count is 1 
+received response: 0 
+>A file1 4 efgh
+command line is A file1 4 efgh
+send_line is A file1 4 efgh
+read count is 1 
+received response: 0 
+>L 0
+command line is L 0
+send_line is L 0
+read count is 6 
+received response: file1 
+>L 1
+command line is L 1
+send_line is L 1
+read count is 8 
+received response: file1 8 
+>D fiel1
+command line is D fiel1
+send_line is D fiel1
+read count is 1 
+received response: 1 
+>L 0
+command line is L 0
+send_line is L 0
+read count is 6 
+received response: file1 
+>D file1
+command line is D file1
+send_line is D file1
+read count is 1 
+received response: 0 
+>L 0
+command line is L 0
+send_line is L 0
+read count is 1 
+received response:  
+>C file2
+command line is C file2
+send_line is C file2
+read count is 1 
+received response: 0 
+>L 0
+command line is L 0
+send_line is L 0
+read count is 6 
+received response: file2 
+>F
+command line is F
+send_line is F
+>L 0
+command line is L 0
+send_line is L 0
+read count is 21 
+received response: Unsupported command 
+ 
+>L 0
+command line is L 0
+send_line is L 0
+read count is 6 
+received response: file2 
+>F
+command line is F
+send_line is F
+>L 0
+command line is L 0
+send_line is L 0
+read count is 6 
+received response: file2 
+>^C
+fork {~/OS/proj3} > ./fclient MYFS[14Dls[K./fclient MYFS[14D[K./fclient MYFS[14Dls[K./fclient MYFS
+>L 0
+command line is L 0
+send_line is L 0
+read count is 1 
+received response:  
+>C file1
+command line is C file1
+send_line is C file1
+read count is 1 
+received response: 0 
+>W file1 abc
+command line is W file1 abc
+send_line is W file1 abc
+read count is 21 
+received response: Unsupported command 
+ 
+>W file1 4 abc
+command line is W file1 4 abc
+send_line is W file1 4 abc
+read count is 1 
+received response: 0 
+>A file1 4 a efg
+command line is A file1 4 efg
+send_line is A file1 4 efg
+read count is 1 
+received response: 0 
+>L 0
+command line is L 0
+send_line is L 0
+read count is 6 
+received response: file1 
+>C file2
+command line is C file2
+send_line is C file2
+read count is 1 
+received response: 0 
+>L 1
+command line is L 1
+send_line is L 1
+read count is 16 
+received response: file1 8
+file2 0 
+>D file1
+command line is D file1
+send_line is D file1
+read count is 1 
+received response: 0 
+>L 0
+command line is L 0
+send_line is L 0
+read count is 6 
+received response: file2 
+>D
+command line is D
+send_line is D
+read count is 21 
+received response: Unsupported command 
+ 
+>F
+command line is F
+send_line is F
+>L 0
+command line is L 0
+send_line is L 0
+read count is 1 
+received response:  
+>W fi   C file1
+command line is C file1
+send_line is C file1
+read count is 1 
+received response: 0 
+>W file1 abc   4 abc
+command line is W file1 4 abc
+send_line is W file1 4 abc
+read count is 1 
+received response: 0 
+>R file1
+command line is R file1
+send_line is R file1
+read count is 6 
+received response: 04 abc 
+>W i file1 4 abcd
+command line is W file1 4 abcd
+send_line is W file1 4 abcd
+read count is 1 
+received response: 0 
+>R file1
+command line is R file1
+send_line is R file1
+read count is 10 
+received response: 04 abcdefg 
+>W file1 abc   4 abcd
+command line is W file1 4 abcd
+send_line is W file1 4 abcd
+read count is 1 
+received response: 0 
+>A file4 a       W file1 8 abcdefgh
+command line is W file1 8 abcdefgh
+send_line is W file1 8 abcdefgh
+read count is 1 
+received response: 0 
+>R file1
+command line is R file1
+send_line is R file1
+read count is 11 
+received response: 08 abcdefgh 
+>exit    ^C
+fork {~/OS/proj3} > ls
+MYDS			fclient			mycat.c			myrm
+MYFS			fclient.c		mycp			myrm.c
+Makefile		fserver			mycp.c			mywrite
+Readme.txt		fserver.c		mygradclient		mywrite.c
+bclient			jovi.h			myls			stdindclient
+bclient.c		lsclient		myls.c			stdindclient.c
+bserver			lsclient.c		myls1			test
+bserver.c		lsserver		myls1.c			test1
+dclient			lsserver.c		mymv			testrun.txt
+dclient.c		myappend		mymv.c			testrunClient
+dserver			myappend.c		mynewfs			testrunFServer.txt
+dserver.c		mycat			mynewfs.c
+fork {~/OS/proj3} > vim mygradclient
+[?1h=[1;37r[m[H[J[36;1H"mygradclient" 24L, 1093C[1;1H[4m  1 [m#./mynewfs
+[4m  2 [m./myls
+[4m  3 [m./myls1
+[4m  4 [m./mycat f1
+[4m  5 [m./mycat f6
+[4m  6 [mecho 012345678910111213141516171819202122232425262728293031323334353637383940414243444546474844[7;1H[4m    [m95051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949599[8;1H[4m    [m69798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464744[9;1H[4m    [m84950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939499[10;1H[4m    [m596979899|./mywrite f1
+[4m  7 [m./mycat f1
+[4m  8 [mecho 012345678910111213141516171819202122232425262728293031323334353637383940414243444546474844[13;1H[4m    [m95051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949599[14;1H[4m    [m69798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464744[15;1H[4m    [m84950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939499[16;1H[4m    [m596979899|./myappend f1
+[4m  9 [m./mycat f1
+[4m 10 [m./myls
+[4m 11 [m./mycp f1 f2
+[4m 12 [m./mycp f2 f3
+[4m 13 [m./mycp f3 f4
+[4m 14 [m./myrm f2
+[4m 15 [m./myrm f3
+[4m 16 [m./mymv f4 f5
+[4m 17 [m./mymv f5 f6
+[4m 18 [mecho TA|./myappend f6
+[4m 19 [m./myls1
+[4m 20 [m./mycat f6
+[4m 21 [mecho 123|./mywrite f9
+[4m 22 [mecho 345|./myappend f9
+[4m 23 [mecho 678|./myappend f9
+[4m 24 [mecho 999|./myappend f9
+[1m~
+~
+~[m[37;81H1,1[11CAll[1;5H./mynewfs[1;14H[K[1;5H[36;1H[K[37;81H[K[36;1H:wq"mygradclient" 24L, 1092C written
+[?1l>
+fork {~/OS/proj3} > vim mygradclientmygradclient[K[12Dygradclient[K[12Dmygradclient[K[12Dmygradclient[K[12D.mygradclient[12D/mygradclient[12D
+Command F executed
+Format Ended
+Command L 0 executed
+
+Command L 1 executed
+
+Command R f1 executed
+File not exist 
+Command R f6 executed
+File not exist 
+Command W f1 380 01234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899 executed
+File not exist 
+Create file first 
+Command C f1 executed
+Successful
+Command W f1 380 01234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899 executed
+Successful
+Command R f1 executed
+01234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+Command A f1 380 01234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899 executed
+Successful
+Command R f1 executed
+0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+Command L 0 executed
+f1
+Command C f2 executed
+Successful
+Command R f1 executed
+Successful
+Command W f2 760 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899 executed
+Successful
+Command C f3 executed
+Successful
+Command R f2 executed
+Successful
+Command W f3 760 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899 executed
+Successful
+Command C f4 executed
+Successful
+Command R f3 executed
+Successful
+Command W f4 760 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899 executed
+Successful
+Command D f2 executed
+Successful
+Command D f3 executed
+Successful
+Command C f5 executed
+Successful
+Command R f4 executed
+Successful
+Command W f5 760 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899 executed
+Successful
+Command D f4 executed
+Successful
+Command C f6 executed
+Successful
+Command R f5 executed
+Successful
+Command W f6 760 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899 executed
+Successful
+Command D f5 executed
+Successful
+Command A f6 2 TA executed
+Successful
+Command L 1 executed
+f1 760
+f6 762
+Command R f6 executed
+0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899TA
+Command W f9 3 123 executed
+File not exist 
+Create file first 
+Command C f9 executed
+Successful
+Command W f9 3 123 executed
+Successful
+Command A f9 3 345 executed
+Successful
+Command A f9 3 678 executed
+Successful
+Command A f9 3 999 executed
+Successful
+fork {~/OS/proj3} > vim mygradclient
+[?1h=[1;37r[m[H[J[36;1H"mygradclient" 24L, 1092C[1;1H[4m  1 [m./mynewfs
+[4m  2 [m./myls
+[4m  3 [m./myls1
+[4m  4 [m./mycat f1
+[4m  5 [m./mycat f6
+[4m  6 [mecho 012345678910111213141516171819202122232425262728293031323334353637383940414243444546474844[7;1H[4m    [m95051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949599[8;1H[4m    [m69798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464744[9;1H[4m    [m84950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939499[10;1H[4m    [m596979899|./mywrite f1
+[4m  7 [m./mycat f1
+[4m  8 [mecho 012345678910111213141516171819202122232425262728293031323334353637383940414243444546474844[13;1H[4m    [m95051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949599[14;1H[4m    [m69798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464744[15;1H[4m    [m84950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939499[16;1H[4m    [m596979899|./myappend f1
+[4m  9 [m./mycat f1
+[4m 10 [m./myls
+[4m 11 [m./mycp f1 f2
+[4m 12 [m./mycp f2 f3
+[4m 13 [m./mycp f3 f4
+[4m 14 [m./myrm f2
+[4m 15 [m./myrm f3
+[4m 16 [m./mymv f4 f5
+[4m 17 [m./mymv f5 f6
+[4m 18 [mecho TA|./myappend f6
+[4m 19 [m./myls1
+[4m 20 [m./mycat f6
+[4m 21 [mecho 123|./mywrite f9
+[4m 22 [mecho 345|./myappend f9
+[4m 23 [mecho 678|./myappend f9
+[4m 24 [mecho 999|./myappend f9
+[1m~
+~
+~[m[37;81H1,1[11CAll[1;5H[37;1H[1m-- INSERT --[m[37;81H[K[37;81H1,1[11CAll[1;5H#./mynewfs[37;83H2[1;6H[37;1H[K[1;5H[36;1H[K[37;81H1,1[11CAll[1;5H[37;81H[K[36;1H:wq"mygradclient" 24L, 1093C written
+[?1l>
+fork {~/OS/proj3} > vim mygradclient[16D./mygradclient[K[14Dvim mygradclient[16Dls[Kvim mygradclient[16Dls[K./fclient MYFS[14Dls[Kvim mygradclient[16D./mygradclient[K
+Command L 0 executed
+f1
+f9
+f6
+Command L 1 executed
+f1 760
+f9 12
+f6 762
+Command R f1 executed
+0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+Command R f6 executed
+0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899TA
+Command W f1 380 01234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899 executed
+Successful
+Command R f1 executed
+012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798993839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+Command A f1 380 01234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899 executed
+Successful
+Command R f1 executed
+012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989967686970
+Command L 0 executed
+f1
+f9
+f6
+Command C f2 executed
+Successful
+Command R f1 executed
+Successful
+Command W f2 760 012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989967686970 executed
+Successful
+Command C f3 executed
+Successful
+Command R f2 executed
+Successful
+Command W f3 760 012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989967686970 executed
+Successful
+Command C f4 executed
+Successful
+Command R f3 executed
+Successful
+Command W f4 760 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899 executed
+Successful
+Command D f2 executed
+Successful
+Command D f3 executed
+Successful
+Command C f5 executed
+Successful
+Command R f4 executed
+Successful
+Command W f5 760 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899 executed
+Successful
+Command D f4 executed
+Successful
+Command C f6 executed
+Target file f6 already not exist
+Command A f6 2 TA executed
+Successful
+Command L 1 executed
+f1 760
+f9 12
+f6 764
+f5 760
+Command R f6 executed
+0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899TATA
+Command W f9 3 123 executed
+Successful
+Command A f9 3 345 executed
+Successful
+Command A f9 3 678 executed
+Successful
+Command A f9 3 999 executed
+Successful
+fork {~/OS/proj3} > exit
+exit
+
+Script done on Sat Dec 11 23:43:57 2010

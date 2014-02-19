@@ -1,0 +1,32 @@
+#! /usr/local/bin/tcsh
+
+# Operating System Project 1 Section 1
+# cat the /proc/cpuinfo to cpuinfo.jovi
+# cat the /proc/stat to stat.jovi
+# cat the /proc/meminfo to meminfo.jovi
+# Author Wei Zhu (Jovi)
+# Date 09/14/2010
+ 
+echo Sysinfo is running on Tcsh
+set hostnameofmine="timberlake.cse.buffalo.edu";
+set hostnameofmine1=`hostname`;
+
+/bin/rm cpuinfo.jovi
+/bin/rm stat.jovi
+/bin/rm meminfo.jovi
+echo Old file was cleaned
+
+if ( $hostnameofmine == $hostnameofmine1 ) then
+		cat /proc/cpuinfo > cpuinfo.jovi
+		echo cpuinfo was stored in cpuinfo.jovi
+		cat /proc/version > version.jovi
+		echo version was stored in version.jovi
+		cat /proc/stat > stat.jovi
+		echo stat was stored in stat.jovi
+		cat /proc/meminfo > meminfo.jovi
+		echo meminfo was stored in meminfo.jovi
+		else
+				echo YOU MUST RUNNING on THE TIMBERLAKE SERVER
+		endif
+
+echo sysinfo ended

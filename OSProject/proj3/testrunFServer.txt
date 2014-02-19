@@ -1,0 +1,1645 @@
+Script started on Sat Dec 11 23:11:17 2010
+fork {~/OS/proj3} > ./fserver MYDS MYFS
+Disk Server Socket File name is MYDS 
+File Server Socket File name is MYFS 
+Internal received:"5 10"Disk server has 5 tracks / 10 sectors per track
+File server listening on UNIX socket 
+"MYFS" 
+
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "F" 
+Clear FAT 
+Internal Received 1
+Clear File Table 
+Internal Received 1
+Received Request: "C file1" 
+create file
+ File no existence
+Internal Received 1 
+W file1 4 abcd
+Received Request: "W file1 4 abcd" 
+Write function
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Received Request: "A file1 4 efgh" 
+Append function
+Received Request: "L 0" 
+list function 
+Command is L 0
+Received Request: "L 0" 
+list function 
+Command is L 0
+^C
+fork {~/OS/proj3} > ./fserver MYDS MYFS[19Dexit[Kdatels -l[5Dcd ..[5Dls -l ./CSE589[12D[Kcd CSE589[9Dls[K -l ./CSE589[14Dcd ..[K[5Dls -l[5Ddate[Kexit./fserver MYDS MYFS[19D[K./fserver MYDS MYFS
+Disk Server Socket File name is MYDS 
+File Server Socket File name is MYFS 
+Internal received:"5 10"Disk server has 5 tracks / 10 sectors per track
+File server listening on UNIX socket 
+"MYFS" 
+
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "C file1" 
+create file
+ File no existence
+0 th in MyFIleTalbe was empty 
+Internal Received 1 
+Received Request: "W file1 4 abcd" 
+Write function
+Enter the loop 
+Find the file table in the index 0 
+block number needed is 1 
+BlockInUse[2] was find to store as the first
+write will start at the block[2]
+BlockInUse[2] was selected as the first
+Track Index 0
+Sector Index 2
+command is W 0 2 4 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+Received Request: "A file1 4 efgh" 
+Append function
+blockstart was 2 
+BlockInUse[2] is 1
+Find the file in the index 0 
+Another block number needed is 0, new is 1, previous is 1 
+write will srart at the block[2]
+Track Index 0
+Sector Index 2
+command is R 0 2
+Received message Length is 257
+Internal Received 1 
+Received content is abcd 
+command is W 0 2 256 
+command to be send is W 0 2 256 abcdefgh
+BlockInUse[2] was selected as the first
+[Internal Received] 49
+Internal Received 1 
+Reset File Table 
+Internal Received 1 
+Received Request: "L 0" 
+list function 
+Command is L 0
+Received Request: "L 1" 
+list function 
+Command is L 1
+Received Request: "D fiel1" 
+Delete function
+FIle not exiestne
+Received Request: "L 0" 
+list function 
+Command is L 0
+Received Request: "D file1" 
+Delete function
+Find the file in the index 0 
+write to the d server 
+Internal message Delelte Successful
+Block In used table delete successful 
+Received Request: "L 0" 
+list function 
+Command is L 0
+Received Request: "C file2" 
+create file
+ File no existence
+0 th in MyFIleTalbe was empty 
+Internal Received 1 
+Received Request: "L 0" 
+list function 
+Command is L 0
+Received Request: "FL 0" 
+Received Request: "L 0" 
+list function 
+Command is L 0
+Received Request: "F" 
+Clear FAT 
+Internal Received 1
+Clear File Table 
+Internal Received 1
+Received Request: "L 0" 
+list function 
+Command is L 0
+^C
+fork {~/OS/proj3} > ls
+MYDS			fclient			mycat.c			myrm
+MYFS			fclient.c		mycp			myrm.c
+Makefile		fserver			mycp.c			mywrite
+Readme.txt		fserver.c		mygradclient		mywrite.c
+bclient			jovi.h			myls			stdindclient
+bclient.c		lsclient		myls.c			stdindclient.c
+bserver			lsclient.c		myls1			test
+bserver.c		lsserver		myls1.c			test1
+dclient			lsserver.c		mymv			testrun.txt
+dclient.c		myappend		mymv.c			testrunClient
+dserver			myappend.c		mynewfs			testrunFServer.txt
+dserver.c		mycat			mynewfs.c
+fork {~/OS/proj3} > rm MYFS
+remove MYFS? y
+fork {~/OS/proj3} > rm MYFS[7Dls[K./fserver MYDS MYFS
+Disk Server Socket File name is MYDS 
+File Server Socket File name is MYFS 
+Internal received:"5 10"Disk server has 5 tracks / 10 sectors per track
+File server listening on UNIX socket 
+"MYFS" 
+
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "L 0" 
+list function 
+Command is L 0
+Received Request: "C file1" 
+create file
+ File no existence
+0 th in MyFIleTalbe was empty 
+Internal Received 1 
+Received Request: "W file1 abc" 
+Received Request: "W file1 4 abc" 
+Write function
+Enter the loop 
+Find the file table in the index 0 
+block number needed is 1 
+BlockInUse[2] was find to store as the first
+write will start at the block[2]
+BlockInUse[2] was selected as the first
+Track Index 0
+Sector Index 2
+command is W 0 2 4 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+Received Request: "A file1 4 efg" 
+Append function
+blockstart was 2 
+BlockInUse[2] is 1
+Find the file in the index 0 
+Another block number needed is 0, new is 1, previous is 1 
+write will srart at the block[2]
+Track Index 0
+Sector Index 2
+command is R 0 2
+Received message Length is 257
+Internal Received 1 
+Received content is abc 
+command is W 0 2 256 
+command to be send is W 0 2 256 abc
+BlockInUse[2] was selected as the first
+[Internal Received] 49
+Internal Received 1 
+Reset File Table 
+Internal Received 1 
+Received Request: "L 0" 
+list function 
+Command is L 0
+Received Request: "C file2" 
+create file
+ File no existence
+1 th in MyFIleTalbe was empty 
+Internal Received 1 
+Received Request: "L 1" 
+list function 
+Command is L 1
+Received Request: "D file1" 
+Delete function
+Find the file in the index 0 
+write to the d server 
+Internal message Delelte Successful
+Block In used table delete successful 
+Received Request: "L 0" 
+list function 
+Command is L 0
+Received Request: "D" 
+Received Request: "F" 
+Clear FAT 
+Internal Received 1
+Clear File Table 
+Internal Received 1
+Received Request: "L 0" 
+list function 
+Command is L 0
+Received Request: "C file1" 
+create file
+ File no existence
+0 th in MyFIleTalbe was empty 
+Internal Received 1 
+Received Request: "W file1 4 abc" 
+Write function
+Enter the loop 
+Find the file table in the index 0 
+block number needed is 1 
+BlockInUse[2] was find to store as the first
+write will start at the block[2]
+BlockInUse[2] was selected as the first
+Track Index 0
+Sector Index 2
+command is W 0 2 4 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+Received Request: "R file1" 
+Read function 
+24 
+Track Index 0
+Sector Index 2
+command is R 0 2
+Received message Length is 257
+Internal Received 1
+Received content is abc
+Received Request: "W file1 4 abcd" 
+Write function
+Enter the loop 
+Find the file table in the index 0 
+block number needed is 1 
+BlockInUse[2] was find to store as the first
+write will start at the block[2]
+BlockInUse[2] was selected as the first
+Track Index 0
+Sector Index 2
+command is W 0 2 4 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+Received Request: "R file1" 
+Read function 
+24 
+Track Index 0
+Sector Index 2
+command is R 0 2
+Received message Length is 257
+Internal Received 1
+Received content is abcdefg
+Received Request: "W file1 4 abcd" 
+Write function
+Enter the loop 
+Find the file table in the index 0 
+block number needed is 1 
+BlockInUse[2] was find to store as the first
+write will start at the block[2]
+BlockInUse[2] was selected as the first
+Track Index 0
+Sector Index 2
+command is W 0 2 4 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+Received Request: "W file1 8 abcdefgh" 
+Write function
+Enter the loop 
+Find the file table in the index 0 
+block number needed is 1 
+BlockInUse[2] was find to store as the first
+write will start at the block[2]
+BlockInUse[2] was selected as the first
+Track Index 0
+Sector Index 2
+command is W 0 2 8 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+Received Request: "R file1" 
+Read function 
+28 
+Track Index 0
+Sector Index 2
+command is R 0 2
+Received message Length is 257
+Internal Received 1
+Received content is abcdefgh
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "F" 
+Clear FAT 
+Internal Received 1
+Clear File Table 
+Internal Received 1
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "L 0" 
+list function 
+Command is L 0
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "L 1" 
+list function 
+Command is L 1
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "R f1" 
+Read function 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "R f6" 
+Read function 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "W f1 380 01234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899" 
+Write function
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Received Request: "C f1" 
+create file
+ File no existence
+0 th in MyFIleTalbe was empty 
+Internal Received 1 
+Received Request: "W f1 380 01234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899" 
+Write function
+Enter the loop 
+Find the file table in the index 0 
+block number needed is 2 
+BlockInUse[2] was find to store as the first
+BlockInUse[3] was find to store
+write will start at the block[3]
+BlockInUse[2] was selected as the first
+Track Index 0
+Sector Index 2
+command is W 0 2 256 
+[Internal Received] 49
+BlockInUse[3] was selected
+Track Index 0
+Sector Index 3
+command is W 0 3 124 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "R f1" 
+Read function 
+2380 
+Track Index 0
+Sector Index 2
+command is R 0 2
+Received message Length is 257
+Internal Received 1
+Received content is 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637
+Track Index 0
+Sector Index 3
+command is R 0 3
+Received message Length is 257
+Internal Received 1
+Received content is 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "A f1 380 01234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899" 
+Append function
+blockstart was 2 
+BlockInUse[2] is 3
+block was reset to another 3 
+Find the file in the index 0 
+Another block number needed is 1, new is 3, previous is 2 
+BlockInUse[4] was find to store
+write will srart at the block[3]
+Track Index 0
+Sector Index 3
+command is R 0 3
+Received message Length is 257
+Internal Received 1 
+Received content is 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899 
+command is W 0 3 256 
+command to be send is W 0 3 256 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+BlockInUse[3] was selected as the first
+[Internal Received] 49
+Track Index 0
+Sector Index 4
+command is W 0 4 248 
+command to be send is W 0 4 248 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+[Internal Received] 1 
+Internal Received 1 
+Reset File Table 
+Internal Received 1 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "R f1" 
+Read function 
+2760 
+Track Index 0
+Sector Index 2
+command is R 0 2
+Received message Length is 257
+Internal Received 1
+Received content is 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637
+Track Index 0
+Sector Index 3
+command is R 0 3
+Received message Length is 257
+Internal Received 1
+Received content is 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+Track Index 0
+Sector Index 4
+command is R 0 4
+Received message Length is 257
+Internal Received 1
+Received content is 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "L 0" 
+list function 
+Command is L 0
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "C f2" 
+create file
+ File no existence
+1 th in MyFIleTalbe was empty 
+Internal Received 1 
+Received Request: "R f1" 
+Read function 
+2760 
+Track Index 0
+Sector Index 2
+command is R 0 2
+Received message Length is 257
+Internal Received 1
+Received content is 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637
+Track Index 0
+Sector Index 3
+command is R 0 3
+Received message Length is 257
+Internal Received 1
+Received content is 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+Track Index 0
+Sector Index 4
+command is R 0 4
+Received message Length is 257
+Internal Received 1
+Received content is 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+Received Request: "W f2 760 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899" 
+Write function
+Enter the loop 
+Enter the loop 
+Find the file table in the index 1 
+block number needed is 3 
+BlockInUse[5] was find to store as the first
+BlockInUse[6] was find to store
+BlockInUse[7] was find to store
+write will start at the block[7]
+BlockInUse[5] was selected as the first
+Track Index 0
+Sector Index 5
+command is W 0 5 256 
+[Internal Received] 49
+BlockInUse[6] was selected
+Track Index 0
+Sector Index 6
+command is W 0 6 256 
+[Internal Received] 49
+BlockInUse[7] was selected
+Track Index 0
+Sector Index 7
+command is W 0 7 248 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "C f3" 
+create file
+ File no existence
+2 th in MyFIleTalbe was empty 
+Internal Received 1 
+Received Request: "R f2" 
+Read function 
+1760 
+Track Index 0
+Sector Index 5
+command is R 0 5
+Received message Length is 257
+Internal Received 1
+Received content is 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637
+Track Index 0
+Sector Index 6
+command is R 0 6
+Received message Length is 257
+Internal Received 1
+Received content is 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+Track Index 0
+Sector Index 7
+command is R 0 7
+Received message Length is 257
+Internal Received 1
+Received content is 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+Received Request: "W f3 760 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899" 
+Write function
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Find the file table in the index 2 
+block number needed is 3 
+BlockInUse[8] was find to store as the first
+BlockInUse[9] was find to store
+BlockInUse[10] was find to store
+write will start at the block[10]
+BlockInUse[8] was selected as the first
+Track Index 0
+Sector Index 8
+command is W 0 8 256 
+[Internal Received] 49
+BlockInUse[9] was selected
+Track Index 0
+Sector Index 9
+command is W 0 9 256 
+[Internal Received] 49
+BlockInUse[10] was selected
+Track Index 1
+Sector Index 0
+command is W 1 0 248 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "C f4" 
+create file
+ File no existence
+3 th in MyFIleTalbe was empty 
+Internal Received 1 
+Received Request: "R f3" 
+Read function 
+1760 
+Track Index 0
+Sector Index 8
+command is R 0 8
+Received message Length is 257
+Internal Received 1
+Received content is 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637
+Track Index 0
+Sector Index 9
+command is R 0 9
+Received message Length is 257
+Internal Received 1
+Received content is 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+Track Index 1
+Sector Index 0
+command is R 1 0
+Received message Length is 257
+Internal Received 1
+Received content is 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+Received Request: "W f4 760 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899" 
+Write function
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Find the file table in the index 3 
+block number needed is 3 
+BlockInUse[11] was find to store as the first
+BlockInUse[12] was find to store
+BlockInUse[13] was find to store
+write will start at the block[13]
+BlockInUse[11] was selected as the first
+Track Index 1
+Sector Index 1
+command is W 1 1 256 
+[Internal Received] 49
+BlockInUse[12] was selected
+Track Index 1
+Sector Index 2
+command is W 1 2 256 
+[Internal Received] 49
+BlockInUse[13] was selected
+Track Index 1
+Sector Index 3
+command is W 1 3 248 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "D f2" 
+Delete function
+Find the file in the index 1 
+write to the d server 
+Internal message Delelte Successful
+Block In used table delete successful 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "D f3" 
+Delete function
+Find the file in the index 2 
+write to the d server 
+Internal message Delelte Successful
+Block In used table delete successful 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "C f5" 
+create file
+ File no existence
+1 th in MyFIleTalbe was empty 
+Internal Received 1 
+Received Request: "R f4" 
+Read function 
+1760 
+Track Index 1
+Sector Index 1
+command is R 1 1
+Received message Length is 257
+Internal Received 1
+Received content is 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637
+Track Index 1
+Sector Index 2
+command is R 1 2
+Received message Length is 257
+Internal Received 1
+Received content is 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+Track Index 1
+Sector Index 3
+command is R 1 3
+Received message Length is 257
+Internal Received 1
+Received content is 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+Received Request: "W f5 760 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899" 
+Write function
+Enter the loop 
+Enter the loop 
+Find the file table in the index 1 
+block number needed is 3 
+BlockInUse[5] was find to store as the first
+BlockInUse[6] was find to store
+BlockInUse[7] was find to store
+write will start at the block[7]
+BlockInUse[5] was selected as the first
+Track Index 0
+Sector Index 5
+command is W 0 5 256 
+[Internal Received] 49
+BlockInUse[6] was selected
+Track Index 0
+Sector Index 6
+command is W 0 6 256 
+[Internal Received] 49
+BlockInUse[7] was selected
+Track Index 0
+Sector Index 7
+command is W 0 7 248 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+Received Request: "D f4" 
+Delete function
+Find the file in the index 3 
+write to the d server 
+Internal message Delelte Successful
+Block In used table delete successful 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "C f6" 
+create file
+ File no existence
+2 th in MyFIleTalbe was empty 
+Internal Received 1 
+Received Request: "R f5" 
+Read function 
+1760 
+Track Index 0
+Sector Index 5
+command is R 0 5
+Received message Length is 257
+Internal Received 1
+Received content is 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637
+Track Index 0
+Sector Index 6
+command is R 0 6
+Received message Length is 257
+Internal Received 1
+Received content is 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+Track Index 0
+Sector Index 7
+command is R 0 7
+Received message Length is 257
+Internal Received 1
+Received content is 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+Received Request: "W f6 760 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899" 
+Write function
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Find the file table in the index 2 
+block number needed is 3 
+BlockInUse[8] was find to store as the first
+BlockInUse[9] was find to store
+BlockInUse[10] was find to store
+write will start at the block[10]
+BlockInUse[8] was selected as the first
+Track Index 0
+Sector Index 8
+command is W 0 8 256 
+[Internal Received] 49
+BlockInUse[9] was selected
+Track Index 0
+Sector Index 9
+command is W 0 9 256 
+[Internal Received] 49
+BlockInUse[10] was selected
+Track Index 1
+Sector Index 0
+command is W 1 0 248 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+Received Request: "D f5" 
+Delete function
+Find the file in the index 1 
+write to the d server 
+Internal message Delelte Successful
+Block In used table delete successful 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "A f6 2 TA" 
+Append function
+blockstart was 8 
+BlockInUse[8] is 9
+block was reset to another 9 
+block was reset to another 10 
+Find the file in the index 2 
+Another block number needed is 0, new is 3, previous is 3 
+write will srart at the block[10]
+Track Index 1
+Sector Index 0
+command is R 1 0
+Received message Length is 257
+Internal Received 1 
+Received content is 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899 
+command is W 1 0 256 
+command to be send is W 1 0 256 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899TA
+BlockInUse[10] was selected as the first
+[Internal Received] 49
+Internal Received 1 
+Reset File Table 
+Internal Received 1 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "L 1" 
+list function 
+Command is L 1
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "R f6" 
+Read function 
+1762 
+Track Index 0
+Sector Index 8
+command is R 0 8
+Received message Length is 257
+Internal Received 1
+Received content is 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637
+Track Index 0
+Sector Index 9
+command is R 0 9
+Received message Length is 257
+Internal Received 1
+Received content is 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+Track Index 1
+Sector Index 0
+command is R 1 0
+Received message Length is 257
+Internal Received 1
+Received content is 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899TA
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "W f9 3 123" 
+Write function
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Received Request: "C f9" 
+create file
+ File no existence
+1 th in MyFIleTalbe was empty 
+Internal Received 1 
+Received Request: "W f9 3 123" 
+Write function
+Enter the loop 
+Enter the loop 
+Find the file table in the index 1 
+block number needed is 1 
+BlockInUse[5] was find to store as the first
+write will start at the block[5]
+BlockInUse[5] was selected as the first
+Track Index 0
+Sector Index 5
+command is W 0 5 3 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "A f9 3 345" 
+Append function
+blockstart was 5 
+BlockInUse[5] is 1
+Find the file in the index 1 
+Another block number needed is 0, new is 1, previous is 1 
+write will srart at the block[5]
+Track Index 0
+Sector Index 5
+command is R 0 5
+Received message Length is 257
+Internal Received 1 
+Received content is 1233456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637 
+command is W 0 5 256 
+command to be send is W 0 5 256 123345
+BlockInUse[5] was selected as the first
+[Internal Received] 49
+Internal Received 1 
+Reset File Table 
+Internal Received 1 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "A f9 3 678" 
+Append function
+blockstart was 5 
+BlockInUse[5] is 1
+Find the file in the index 1 
+Another block number needed is 0, new is 1, previous is 1 
+write will srart at the block[5]
+Track Index 0
+Sector Index 5
+command is R 0 5
+Received message Length is 257
+Internal Received 1 
+Received content is 123345 
+command is W 0 5 256 
+command to be send is W 0 5 256 123345678
+BlockInUse[5] was selected as the first
+[Internal Received] 49
+Internal Received 1 
+Reset File Table 
+Internal Received 1 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "A f9 3 999" 
+Append function
+blockstart was 5 
+BlockInUse[5] is 1
+Find the file in the index 1 
+Another block number needed is 0, new is 1, previous is 1 
+write will srart at the block[5]
+Track Index 0
+Sector Index 5
+command is R 0 5
+Received message Length is 257
+Internal Received 1 
+Received content is 123345678 
+command is W 0 5 256 
+command to be send is W 0 5 256 123345678999
+BlockInUse[5] was selected as the first
+[Internal Received] 49
+Internal Received 1 
+Reset File Table 
+Internal Received 1 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+^C
+fork {~/OS/proj3} > rm MYFS
+remove MYFS? y
+fork {~/OS/proj3} > rm MYFS[7D./fserver MYDS MYFS[19Drm MYFS[K[7Dls[K./fserver MYDS MYFS
+Disk Server Socket File name is MYDS 
+File Server Socket File name is MYFS 
+Internal received:"5 10"Disk server has 5 tracks / 10 sectors per track
+File server listening on UNIX socket 
+"MYFS" 
+
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "L 0" 
+list function 
+Command is L 0
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "L 1" 
+list function 
+Command is L 1
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "R f1" 
+Read function 
+2760 
+Track Index 0
+Sector Index 2
+command is R 0 2
+Received message Length is 257
+Internal Received 1
+Received content is 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637
+Track Index 0
+Sector Index 3
+command is R 0 3
+Received message Length is 257
+Internal Received 1
+Received content is 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+Track Index 0
+Sector Index 4
+command is R 0 4
+Received message Length is 257
+Internal Received 1
+Received content is 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "R f6" 
+Read function 
+1762 
+Track Index 0
+Sector Index 8
+command is R 0 8
+Received message Length is 257
+Internal Received 1
+Received content is 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637
+Track Index 0
+Sector Index 9
+command is R 0 9
+Received message Length is 257
+Internal Received 1
+Received content is 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+Track Index 1
+Sector Index 0
+command is R 1 0
+Received message Length is 257
+Internal Received 1
+Received content is 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899TA
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "W f1 380 01234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899" 
+Write function
+Enter the loop 
+Find the file table in the index 0 
+block number needed is 2 
+BlockInUse[2] was find to store as the first
+BlockInUse[4] was find to store
+write will start at the block[4]
+BlockInUse[2] was selected as the first
+Track Index 0
+Sector Index 2
+command is W 0 2 256 
+[Internal Received] 49
+BlockInUse[4] was selected
+Track Index 0
+Sector Index 4
+command is W 0 4 124 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "R f1" 
+Read function 
+2380 
+Track Index 0
+Sector Index 2
+command is R 0 2
+Received message Length is 257
+Internal Received 1
+Received content is 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637
+Track Index 0
+Sector Index 4
+command is R 0 4
+Received message Length is 257
+Internal Received 1
+Received content is 38394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798993839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "A f1 380 01234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899" 
+Append function
+blockstart was 2 
+BlockInUse[2] is 4
+block was reset to another 4 
+Find the file in the index 0 
+Another block number needed is 1, new is 3, previous is 2 
+BlockInUse[6] was find to store
+write will srart at the block[4]
+Track Index 0
+Sector Index 4
+command is R 0 4
+Received message Length is 257
+Internal Received 1 
+Received content is 38394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798993839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899 
+command is W 0 4 256 
+command to be send is W 0 4 256 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+BlockInUse[4] was selected as the first
+[Internal Received] 49
+Track Index 0
+Sector Index 6
+command is W 0 6 248 
+command to be send is W 0 6 248 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+[Internal Received] 1 
+Internal Received 1 
+Reset File Table 
+Internal Received 1 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "R f1" 
+Read function 
+2760 
+Track Index 0
+Sector Index 2
+command is R 0 2
+Received message Length is 257
+Internal Received 1
+Received content is 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637
+Track Index 0
+Sector Index 4
+command is R 0 4
+Received message Length is 257
+Internal Received 1
+Received content is 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+Track Index 0
+Sector Index 6
+command is R 0 6
+Received message Length is 257
+Internal Received 1
+Received content is 7172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989967686970
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "L 0" 
+list function 
+Command is L 0
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "C f2" 
+create file
+ File no existence
+3 th in MyFIleTalbe was empty 
+Internal Received 1 
+Received Request: "R f1" 
+Read function 
+2760 
+Track Index 0
+Sector Index 2
+command is R 0 2
+Received message Length is 257
+Internal Received 1
+Received content is 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637
+Track Index 0
+Sector Index 4
+command is R 0 4
+Received message Length is 257
+Internal Received 1
+Received content is 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+Track Index 0
+Sector Index 6
+command is R 0 6
+Received message Length is 257
+Internal Received 1
+Received content is 7172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989967686970
+Received Request: "W f2 760 012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989967686970" 
+Write function
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Find the file table in the index 3 
+block number needed is 3 
+BlockInUse[7] was find to store as the first
+BlockInUse[11] was find to store
+BlockInUse[12] was find to store
+write will start at the block[12]
+BlockInUse[7] was selected as the first
+Track Index 0
+Sector Index 7
+command is W 0 7 256 
+[Internal Received] 49
+BlockInUse[11] was selected
+Track Index 1
+Sector Index 1
+command is W 1 1 256 
+[Internal Received] 49
+BlockInUse[12] was selected
+Track Index 1
+Sector Index 2
+command is W 1 2 248 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "C f3" 
+create file
+ File no existence
+4 th in MyFIleTalbe was empty 
+Internal Received 1 
+Received Request: "R f2" 
+Read function 
+1760 
+Track Index 0
+Sector Index 7
+command is R 0 7
+Received message Length is 257
+Internal Received 1
+Received content is 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637
+Track Index 1
+Sector Index 1
+command is R 1 1
+Received message Length is 257
+Internal Received 1
+Received content is 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+Track Index 1
+Sector Index 2
+command is R 1 2
+Received message Length is 257
+Internal Received 1
+Received content is 7172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989967686970
+Received Request: "W f3 760 012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989967686970" 
+Write function
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Find the file table in the index 4 
+block number needed is 3 
+BlockInUse[13] was find to store as the first
+BlockInUse[14] was find to store
+BlockInUse[15] was find to store
+write will start at the block[15]
+BlockInUse[13] was selected as the first
+Track Index 1
+Sector Index 3
+command is W 1 3 256 
+[Internal Received] 49
+BlockInUse[14] was selected
+Track Index 1
+Sector Index 4
+command is W 1 4 256 
+[Internal Received] 49
+BlockInUse[15] was selected
+Track Index 1
+Sector Index 5
+command is W 1 5 248 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "C f4" 
+create file
+ File no existence
+5 th in MyFIleTalbe was empty 
+Internal Received 1 
+Received Request: "R f3" 
+Read function 
+1760 
+Track Index 1
+Sector Index 3
+command is R 1 3
+Received message Length is 257
+Internal Received 1
+Received content is 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637
+Track Index 1
+Sector Index 4
+command is R 1 4
+Received message Length is 257
+Internal Received 1
+Received content is 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+Track Index 1
+Sector Index 5
+command is R 1 5
+Received message Length is 257
+Internal Received 1
+Received content is 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+Received Request: "W f4 760 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899" 
+Write function
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Find the file table in the index 5 
+block number needed is 3 
+BlockInUse[16] was find to store as the first
+BlockInUse[17] was find to store
+BlockInUse[18] was find to store
+write will start at the block[18]
+BlockInUse[16] was selected as the first
+Track Index 1
+Sector Index 6
+command is W 1 6 256 
+[Internal Received] 49
+BlockInUse[17] was selected
+Track Index 1
+Sector Index 7
+command is W 1 7 256 
+[Internal Received] 49
+BlockInUse[18] was selected
+Track Index 1
+Sector Index 8
+command is W 1 8 248 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "D f2" 
+Delete function
+Find the file in the index 3 
+write to the d server 
+Internal message Delelte Successful
+Block In used table delete successful 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "D f3" 
+Delete function
+Find the file in the index 4 
+write to the d server 
+Internal message Delelte Successful
+Block In used table delete successful 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "C f5" 
+create file
+ File no existence
+3 th in MyFIleTalbe was empty 
+Internal Received 1 
+Received Request: "R f4" 
+Read function 
+1760 
+Track Index 1
+Sector Index 6
+command is R 1 6
+Received message Length is 257
+Internal Received 1
+Received content is 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637
+Track Index 1
+Sector Index 7
+command is R 1 7
+Received message Length is 257
+Internal Received 1
+Received content is 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+Track Index 1
+Sector Index 8
+command is R 1 8
+Received message Length is 257
+Internal Received 1
+Received content is 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+Received Request: "W f5 760 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989901234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899" 
+Write function
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Enter the loop 
+Find the file table in the index 3 
+block number needed is 3 
+BlockInUse[7] was find to store as the first
+BlockInUse[11] was find to store
+BlockInUse[12] was find to store
+write will start at the block[12]
+BlockInUse[7] was selected as the first
+Track Index 0
+Sector Index 7
+command is W 0 7 256 
+[Internal Received] 49
+BlockInUse[11] was selected
+Track Index 1
+Sector Index 1
+command is W 1 1 256 
+[Internal Received] 49
+BlockInUse[12] was selected
+Track Index 1
+Sector Index 2
+command is W 1 2 248 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+Received Request: "D f4" 
+Delete function
+Find the file in the index 5 
+write to the d server 
+Internal message Delelte Successful
+Block In used table delete successful 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "C f6" 
+create file
+file flag is set to one 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "A f6 2 TA" 
+Append function
+blockstart was 8 
+BlockInUse[8] is 9
+block was reset to another 9 
+block was reset to another 10 
+Find the file in the index 2 
+Another block number needed is 0, new is 3, previous is 3 
+write will srart at the block[10]
+Track Index 1
+Sector Index 0
+command is R 1 0
+Received message Length is 257
+Internal Received 1 
+Received content is 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899TA 
+command is W 1 0 256 
+command to be send is W 1 0 256 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899TATA
+BlockInUse[10] was selected as the first
+[Internal Received] 49
+Internal Received 1 
+Reset File Table 
+Internal Received 1 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "L 1" 
+list function 
+Command is L 1
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "R f6" 
+Read function 
+1764 
+Track Index 0
+Sector Index 8
+command is R 0 8
+Received message Length is 257
+Internal Received 1
+Received content is 0123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637
+Track Index 0
+Sector Index 9
+command is R 0 9
+Received message Length is 257
+Internal Received 1
+Received content is 3839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899012345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970
+Track Index 1
+Sector Index 0
+command is R 1 0
+Received message Length is 257
+Internal Received 1
+Received content is 71727374757677787980818283848586878889909192939495969798990123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899TATA
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "W f9 3 123" 
+Write function
+Enter the loop 
+Enter the loop 
+Find the file table in the index 1 
+block number needed is 1 
+BlockInUse[5] was find to store as the first
+write will start at the block[5]
+BlockInUse[5] was selected as the first
+Track Index 0
+Sector Index 5
+command is W 0 5 3 
+[Internal Received] 1
+[Internal Received]1 
+Reset File Table 
+[Internal Received] 1
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "A f9 3 345" 
+Append function
+blockstart was 5 
+BlockInUse[5] is 1
+Find the file in the index 1 
+Another block number needed is 0, new is 1, previous is 1 
+write will srart at the block[5]
+Track Index 0
+Sector Index 5
+command is R 0 5
+Received message Length is 257
+Internal Received 1 
+Received content is 123345678999 
+command is W 0 5 256 
+command to be send is W 0 5 256 123345
+BlockInUse[5] was selected as the first
+[Internal Received] 49
+Internal Received 1 
+Reset File Table 
+Internal Received 1 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "A f9 3 678" 
+Append function
+blockstart was 5 
+BlockInUse[5] is 1
+Find the file in the index 1 
+Another block number needed is 0, new is 1, previous is 1 
+write will srart at the block[5]
+Track Index 0
+Sector Index 5
+command is R 0 5
+Received message Length is 257
+Internal Received 1 
+Received content is 123345 
+command is W 0 5 256 
+command to be send is W 0 5 256 123345678
+BlockInUse[5] was selected as the first
+[Internal Received] 49
+Internal Received 1 
+Reset File Table 
+Internal Received 1 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+Acquired client. 
+this is child process
+Received Request: "A f9 3 999" 
+Append function
+blockstart was 5 
+BlockInUse[5] is 1
+Find the file in the index 1 
+Another block number needed is 0, new is 1, previous is 1 
+write will srart at the block[5]
+Track Index 0
+Sector Index 5
+command is R 0 5
+Received message Length is 257
+Internal Received 1 
+Received content is 123345678 
+command is W 0 5 256 
+command to be send is W 0 5 256 123345678999
+BlockInUse[5] was selected as the first
+[Internal Received] 49
+Internal Received 1 
+Reset File Table 
+Internal Received 1 
+bytes_read ==0
+connection closed 
+Awaiting connection...
+^C
+fork {~/OS/proj3} > exit
+exit
+
+Script done on Sat Dec 11 23:43:54 2010

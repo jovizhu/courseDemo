@@ -1,0 +1,263 @@
+Script started on Sat Oct  2 13:51:31 2010
+fork {~/proj1} > make all
+gcc Encrypt.c -o Encrypt
+gcc ForkEncrypt.c -o ForkEncrypt
+gcc PipeEncrypt.c -o PipeEncrypt
+gcc TimeEncrypt.c -o TimeEncrypt
+gcc MyShell.c -o MyShell
+gcc DupShell.c -o DupShell
+gcc ThreadAdd.c -o ThreadAdd -pthread
+ThreadAdd.c: In function 'main':
+ThreadAdd.c:80: warning: cast from pointer to integer of different size
+ThreadAdd.c: In function 'generate_number':
+ThreadAdd.c:99: warning: cast to pointer from integer of different size
+fork {~/proj1} > ./Encrypt input.txt output.txt
+fork {~/proj1} > ./D[KForkEncrypt inu[Kput.[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./ForkEncrypt input.txt output.txt
+fork {~/proj1} > ./PipeEncrypt input.txt output.txt
+fork {~/proj1} > TimeEncrypt input.txt output.txt.TimeEncrypt input.txt output.txt[32D/TimeEncrypt input.txt output.txt[32DTime	ncrypt 	nput.tx	 output	txt
+Time 2 start: 818967 :
+Time 2 end: 47886 :
+Time 3 end: 274174 :
+************************************************
+ Encrypt time is 0.237742 seconds 
+ 
+  ForkEncrypt time is 0.228919 seconds 
+ 
+  PipeEncrypt time is 0.226251 seconds 
+ 
+ fork {~/proj1} > ./MyShell
+Input your command: ls 
+split command is ls 
+DupShell	Makefile	Test.log	cpuinfo.jovi	output.txt.p2	test.script
+DupShell.c	MyShell		Test.script	input.txt	output.txt.p4	timberlake.info
+Encrypt		MyShell.c	ThreadAdd	input.txt2.txt	output.txt2	version.jovi
+Encrypt.c	PipeEncrypt	ThreadAdd.c	jovi.h		stat.jovi
+ForkEncrypt	PipeEncrypt.c	TimeEncrypt	meminfo.jovi	sysinfo
+ForkEncrypt.c	Readme.txt	TimeEncrypt.c	output.txt	test.log
+Input your command: ls -l
+split command is ls 
+split command is -l 
+total 4428
+-rwxr-xr-x  1 wzhu4  csgrad     9973 Oct  2 13:51 DupShell
+-rw-r--r--  1 wzhu4  csgrad     3895 Sep 28 14:05 DupShell.c
+-rwxr-xr-x  1 wzhu4  csgrad     7756 Oct  2 13:51 Encrypt
+-rw-r--r--  1 wzhu4  csgrad     2032 Sep 28 14:28 Encrypt.c
+-rwxr-xr-x  1 wzhu4  csgrad     7365 Oct  2 13:51 ForkEncrypt
+-rw-r--r--  1 wzhu4  csgrad     1512 Sep 28 14:41 ForkEncrypt.c
+-rw-r--r--  1 wzhu4  csgrad      623 Sep 28 14:55 Makefile
+-rwxr-xr-x  1 wzhu4  csgrad     8575 Oct  2 13:51 MyShell
+-rw-r--r--  1 wzhu4  csgrad     2550 Sep 28 22:36 MyShell.c
+-rwxr-xr-x  1 wzhu4  csgrad     8218 Oct  2 13:51 PipeEncrypt
+-rw-r--r--  1 wzhu4  csgrad     2715 Sep 28 14:46 PipeEncrypt.c
+-rw-r--r--  1 wzhu4  csgrad     1455 Sep 28 15:27 Readme.txt
+-rw-r--r--  1 wzhu4  csgrad     1260 Oct  2 13:55 Test.log
+-rwxrwxrwx  1 wzhu4  csgrad      455 Sep 28 15:10 Test.script
+-rwxr-xr-x  1 wzhu4  csgrad     9880 Oct  2 13:51 ThreadAdd
+-rw-r--r--  1 wzhu4  csgrad     2445 Oct  2 13:35 ThreadAdd.c
+-rwxr-xr-x  1 wzhu4  csgrad     9489 Oct  2 13:51 TimeEncrypt
+-rw-r--r--  1 wzhu4  csgrad     3163 Sep 28 14:54 TimeEncrypt.c
+-rw-r--r--  1 wzhu4  csgrad    11038 Sep 28 15:10 cpuinfo.jovi
+-rw-r--r--  1 wzhu4  csgrad    42259 Sep 28 10:08 input.txt
+-rw-r--r--  1 wzhu4  csgrad  4141382 Sep 28 10:11 input.txt2.txt
+-rw-r--r--  1 wzhu4  csgrad      274 Sep 28 10:43 jovi.h
+-rw-r--r--  1 wzhu4  csgrad      777 Sep 28 15:10 meminfo.jovi
+-rw-------  1 wzhu4  csgrad    42259 Oct  2 13:54 output.txt
+-rw-------  1 wzhu4  csgrad    42259 Sep 28 15:10 output.txt.p2
+-rw-------  1 wzhu4  csgrad    42259 Sep 28 15:10 output.txt.p4
+-rw-------  1 wzhu4  csgrad        0 Sep 28 10:11 output.txt2
+-rw-r--r--  1 wzhu4  csgrad     1658 Sep 28 15:10 stat.jovi
+-rwxrwxrwx  1 wzhu4  csgrad      852 Sep 28 15:04 sysinfo
+-rw-r--r--  1 wzhu4  csgrad     9106 Sep 28 15:11 test.log
+-rwxrwxrwx  1 wzhu4  csgrad       28 Sep 28 11:32 test.script
+-rw-r--r--  1 wzhu4  csgrad    14373 Sep 14 09:48 timberlake.info
+-rw-r--r--  1 wzhu4  csgrad      157 Sep 28 15:10 version.jovi
+Input your command: ls -l -r
+split command is ls 
+split command is -l 
+split command is -r 
+total 4428
+-rw-r--r--  1 wzhu4  csgrad      157 Sep 28 15:10 version.jovi
+-rw-r--r--  1 wzhu4  csgrad    14373 Sep 14 09:48 timberlake.info
+-rwxrwxrwx  1 wzhu4  csgrad       28 Sep 28 11:32 test.script
+-rw-r--r--  1 wzhu4  csgrad     9106 Sep 28 15:11 test.log
+-rwxrwxrwx  1 wzhu4  csgrad      852 Sep 28 15:04 sysinfo
+-rw-r--r--  1 wzhu4  csgrad     1658 Sep 28 15:10 stat.jovi
+-rw-------  1 wzhu4  csgrad        0 Sep 28 10:11 output.txt2
+-rw-------  1 wzhu4  csgrad    42259 Sep 28 15:10 output.txt.p4
+-rw-------  1 wzhu4  csgrad    42259 Sep 28 15:10 output.txt.p2
+-rw-------  1 wzhu4  csgrad    42259 Oct  2 13:54 output.txt
+-rw-r--r--  1 wzhu4  csgrad      777 Sep 28 15:10 meminfo.jovi
+-rw-r--r--  1 wzhu4  csgrad      274 Sep 28 10:43 jovi.h
+-rw-r--r--  1 wzhu4  csgrad  4141382 Sep 28 10:11 input.txt2.txt
+-rw-r--r--  1 wzhu4  csgrad    42259 Sep 28 10:08 input.txt
+-rw-r--r--  1 wzhu4  csgrad    11038 Sep 28 15:10 cpuinfo.jovi
+-rw-r--r--  1 wzhu4  csgrad     3163 Sep 28 14:54 TimeEncrypt.c
+-rwxr-xr-x  1 wzhu4  csgrad     9489 Oct  2 13:51 TimeEncrypt
+-rw-r--r--  1 wzhu4  csgrad     2445 Oct  2 13:35 ThreadAdd.c
+-rwxr-xr-x  1 wzhu4  csgrad     9880 Oct  2 13:51 ThreadAdd
+-rwxrwxrwx  1 wzhu4  csgrad      455 Sep 28 15:10 Test.script
+-rw-r--r--  1 wzhu4  csgrad     1260 Oct  2 13:55 Test.log
+-rw-r--r--  1 wzhu4  csgrad     1455 Sep 28 15:27 Readme.txt
+-rw-r--r--  1 wzhu4  csgrad     2715 Sep 28 14:46 PipeEncrypt.c
+-rwxr-xr-x  1 wzhu4  csgrad     8218 Oct  2 13:51 PipeEncrypt
+-rw-r--r--  1 wzhu4  csgrad     2550 Sep 28 22:36 MyShell.c
+-rwxr-xr-x  1 wzhu4  csgrad     8575 Oct  2 13:51 MyShell
+-rw-r--r--  1 wzhu4  csgrad      623 Sep 28 14:55 Makefile
+-rw-r--r--  1 wzhu4  csgrad     1512 Sep 28 14:41 ForkEncrypt.c
+-rwxr-xr-x  1 wzhu4  csgrad     7365 Oct  2 13:51 ForkEncrypt
+-rw-r--r--  1 wzhu4  csgrad     2032 Sep 28 14:28 Encrypt.c
+-rwxr-xr-x  1 wzhu4  csgrad     7756 Oct  2 13:51 Encrypt
+-rw-r--r--  1 wzhu4  csgrad     3895 Sep 28 14:05 DupShell.c
+-rwxr-xr-x  1 wzhu4  csgrad     9973 Oct  2 13:51 DupShell
+Input your command: exit
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~[m[37;81H0,0-1[9CAll[1;5H[36;1H[K[37;81H[K[36;1H:q
+Script started on Sat Oct  2 14:01:50 2010
+fork {~/proj1} > ./DupShell.c[K[K
+Input your command: ls
+ls
+ 
+DupShell	Makefile	Test.log	cpuinfo.jovi	output.txt.p2	test.script
+DupShell.c	MyShell		Test.script	input.txt	output.txt.p4	timberlake.info
+Encrypt		MyShell.c	ThreadAdd	input.txt2.txt	output.txt2	version.jovi
+Encrypt.c	PipeEncrypt	ThreadAdd.c	jovi.h		stat.jovi
+ForkEncrypt	PipeEncrypt.c	TimeEncrypt	meminfo.jovi	sysinfo
+ForkEncrypt.c	Readme.txt	TimeEncrypt.c	output.txt	test.log
+Input your command: ls -l
+ls -l
+ 
+total 4432
+-rwxr-xr-x  1 wzhu4  csgrad     9973 Oct  2 14:01 DupShell
+-rw-r--r--  1 wzhu4  csgrad     3902 Oct  2 14:01 DupShell.c
+-rwxr-xr-x  1 wzhu4  csgrad     7756 Oct  2 13:51 Encrypt
+-rw-r--r--  1 wzhu4  csgrad     2032 Sep 28 14:28 Encrypt.c
+-rwxr-xr-x  1 wzhu4  csgrad     7365 Oct  2 13:51 ForkEncrypt
+-rw-r--r--  1 wzhu4  csgrad     1512 Sep 28 14:41 ForkEncrypt.c
+-rw-r--r--  1 wzhu4  csgrad      623 Sep 28 14:55 Makefile
+-rwxr-xr-x  1 wzhu4  csgrad     8575 Oct  2 13:51 MyShell
+-rw-r--r--  1 wzhu4  csgrad     2550 Sep 28 22:36 MyShell.c
+-rwxr-xr-x  1 wzhu4  csgrad     8218 Oct  2 13:51 PipeEncrypt
+-rw-r--r--  1 wzhu4  csgrad     2715 Sep 28 14:46 PipeEncrypt.c
+-rw-r--r--  1 wzhu4  csgrad     1455 Sep 28 15:27 Readme.txt
+-rw-r--r--  1 wzhu4  csgrad     6197 Oct  2 13:59 Test.log
+-rwxrwxrwx  1 wzhu4  csgrad      455 Sep 28 15:10 Test.script
+-rwxr-xr-x  1 wzhu4  csgrad     9880 Oct  2 13:51 ThreadAdd
+-rw-r--r--  1 wzhu4  csgrad     2445 Oct  2 13:35 ThreadAdd.c
+-rwxr-xr-x  1 wzhu4  csgrad     9489 Oct  2 13:51 TimeEncrypt
+-rw-r--r--  1 wzhu4  csgrad     3163 Sep 28 14:54 TimeEncrypt.c
+-rw-r--r--  1 wzhu4  csgrad    11038 Sep 28 15:10 cpuinfo.jovi
+-rw-r--r--  1 wzhu4  csgrad    42259 Sep 28 10:08 input.txt
+-rw-r--r--  1 wzhu4  csgrad  4141382 Sep 28 10:11 input.txt2.txt
+-rw-r--r--  1 wzhu4  csgrad      274 Sep 28 10:43 jovi.h
+-rw-r--r--  1 wzhu4  csgrad      777 Sep 28 15:10 meminfo.jovi
+-rw-------  1 wzhu4  csgrad    42259 Oct  2 13:54 output.txt
+-rw-------  1 wzhu4  csgrad    42259 Sep 28 15:10 output.txt.p2
+-rw-------  1 wzhu4  csgrad    42259 Sep 28 15:10 output.txt.p4
+-rw-------  1 wzhu4  csgrad        0 Sep 28 10:11 output.txt2
+-rw-r--r--  1 wzhu4  csgrad     1658 Sep 28 15:10 stat.jovi
+-rwxrwxrwx  1 wzhu4  csgrad      852 Sep 28 15:04 sysinfo
+-rw-r--r--  1 wzhu4  csgrad     9106 Sep 28 15:11 test.log
+-rwxrwxrwx  1 wzhu4  csgrad       28 Sep 28 11:32 test.script
+-rw-r--r--  1 wzhu4  csgrad    14373 Sep 14 09:48 timberlake.info
+-rw-r--r--  1 wzhu4  csgrad      157 Sep 28 15:10 version.jovi
+Input your command: ls -l -r
+ls -l -r
+ 
+total 4432
+-rw-r--r--  1 wzhu4  csgrad      157 Sep 28 15:10 version.jovi
+-rw-r--r--  1 wzhu4  csgrad    14373 Sep 14 09:48 timberlake.info
+-rwxrwxrwx  1 wzhu4  csgrad       28 Sep 28 11:32 test.script
+-rw-r--r--  1 wzhu4  csgrad     9106 Sep 28 15:11 test.log
+-rwxrwxrwx  1 wzhu4  csgrad      852 Sep 28 15:04 sysinfo
+-rw-r--r--  1 wzhu4  csgrad     1658 Sep 28 15:10 stat.jovi
+-rw-------  1 wzhu4  csgrad        0 Sep 28 10:11 output.txt2
+-rw-------  1 wzhu4  csgrad    42259 Sep 28 15:10 output.txt.p4
+-rw-------  1 wzhu4  csgrad    42259 Sep 28 15:10 output.txt.p2
+-rw-------  1 wzhu4  csgrad    42259 Oct  2 13:54 output.txt
+-rw-r--r--  1 wzhu4  csgrad      777 Sep 28 15:10 meminfo.jovi
+-rw-r--r--  1 wzhu4  csgrad      274 Sep 28 10:43 jovi.h
+-rw-r--r--  1 wzhu4  csgrad  4141382 Sep 28 10:11 input.txt2.txt
+-rw-r--r--  1 wzhu4  csgrad    42259 Sep 28 10:08 input.txt
+-rw-r--r--  1 wzhu4  csgrad    11038 Sep 28 15:10 cpuinfo.jovi
+-rw-r--r--  1 wzhu4  csgrad     3163 Sep 28 14:54 TimeEncrypt.c
+-rwxr-xr-x  1 wzhu4  csgrad     9489 Oct  2 13:51 TimeEncrypt
+-rw-r--r--  1 wzhu4  csgrad     2445 Oct  2 13:35 ThreadAdd.c
+-rwxr-xr-x  1 wzhu4  csgrad     9880 Oct  2 13:51 ThreadAdd
+-rwxrwxrwx  1 wzhu4  csgrad      455 Sep 28 15:10 Test.script
+-rw-r--r--  1 wzhu4  csgrad     6197 Oct  2 13:59 Test.log
+-rw-r--r--  1 wzhu4  csgrad     1455 Sep 28 15:27 Readme.txt
+-rw-r--r--  1 wzhu4  csgrad     2715 Sep 28 14:46 PipeEncrypt.c
+-rwxr-xr-x  1 wzhu4  csgrad     8218 Oct  2 13:51 PipeEncrypt
+-rw-r--r--  1 wzhu4  csgrad     2550 Sep 28 22:36 MyShell.c
+-rwxr-xr-x  1 wzhu4  csgrad     8575 Oct  2 13:51 MyShell
+-rw-r--r--  1 wzhu4  csgrad      623 Sep 28 14:55 Makefile
+-rw-r--r--  1 wzhu4  csgrad     1512 Sep 28 14:41 ForkEncrypt.c
+-rwxr-xr-x  1 wzhu4  csgrad     7365 Oct  2 13:51 ForkEncrypt
+-rw-r--r--  1 wzhu4  csgrad     2032 Sep 28 14:28 Encrypt.c
+-rwxr-xr-x  1 wzhu4  csgrad     7756 Oct  2 13:51 Encrypt
+-rw-r--r--  1 wzhu4  csgrad     3902 Oct  2 14:01 DupShell.c
+-rwxr-xr-x  1 wzhu4  csgrad     9973 Oct  2 14:01 DupShell
+Input your command: ls | wc
+ls | wc
+ 
+      33      33     374
+Input your command: ls |  -l | wc
+ls -l | wc
+ 
+      34     299    2035
+Input your command: ls -   date | wc -c
+date | wc -c
+ 
+      29
+Input your command: ls -l -s | wc -l
+ls -l -s | wc -l
+ 
+      34
+Input your command: ls -l -r | wc -c -l
+ls -l -r | wc -c -l
+ 
+      34    2035
+Input your command: ls -l -s | wc
+ls -l -s | wc
+ 
+      34     332    2200
+Input your command: exit
+exit
+ 
+fork {~/proj1} > ./ThreadAdd10[K[K 10
+ IN the thread, the random number is 2 
+  IN the thread, the random number is 7 
+  IN the thread, the random number is 9 
+  IN the thread, the random number is 9 
+  IN the thread, the random number is 3 
+  IN the thread, the random number is 4 
+  IN the thread, the random number is 0 
+  IN the thread, the random number is 8 
+  IN the thread, the random number is 3 
+  IN the thread, the random number is 8 
+ The SUm is 53 
+fork {~/proj1} > exit
+exit
+
+Script done on Sat Oct  2 14:06:37 2010

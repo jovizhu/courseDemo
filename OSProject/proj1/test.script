@@ -1,0 +1,33 @@
+echo problem 1 Catch information about the timberlake
+echo Auto System Info script was running
+echo sysinfo was stored in cpuinfo.jovi version.jovi stat.jovi meminfo.jovi
+echo Or you can also verified in the file timberlake.info
+./sysinfo
+
+
+echo problme 2 Encrypt input.txt output.txt.p2
+./Encrypt input.txt output.txt.p2
+echo the output file is output.txt.p2
+
+echo problem 3 ForkEncrypt input.txt output.txt.p3
+./ForkEncrypt input.txt output.txt.p3
+echo The output file is output.txt.p3
+
+echo problem 4 PipeEncrypt input.txt output.txt.p4
+./PipeEncrypt input.txt output.txt.p4
+echo the output file is output.txt.p4
+
+echo problem 5 TimeEncrypt input.txt output.txt
+./TimeEncrypt input.txt output.txt
+
+
+echo problem 6 MyShell
+./MyShell
+
+
+echo problem 7 ./DupShell
+./DupShell
+
+echo problem 8 ThreadAdd 10
+./ThreadAdd 10
+

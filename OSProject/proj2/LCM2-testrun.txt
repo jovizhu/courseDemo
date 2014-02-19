@@ -1,0 +1,409 @@
+Script started on Mon 01 Nov 2010 10:56:30 AM EDT
+timberlake {~/OS/proj2} > ./LCM2-testrun.txt[K[K[K[K[K[K[K[K[K[K[K[K 5
+Maximun number of unfilled holes: 5 
+Begin run
+Larry digs another hole # 0 
+Larry digs another hole # 1 
+Larry digs another hole # 2 
+Larry digs another hole # 3 
+Larry digs another hole # 4 
+Moe plants a bulb in a hole #0 
+Moe plants a bulb in a hole #1 
+Moe plants a bulb in a hole #2 
+Moe plants a bulb in a hole #3 
+Moe plants a bulb in a hole #4 
+Curly add the fertilizer to hole #0 
+Curly fills a planted hole #0 
+Curly add the fertilizer to hole #1 
+Curly fills a planted hole #1 
+Curly add the fertilizer to hole #2 
+Curly fills a planted hole #2 
+Curly add the fertilizer to hole #3 
+Curly fills a planted hole #3 
+Curly add the fertilizer to hole #4 
+Curly fills a planted hole #4 
+Larry digs another hole # 5 
+Larry digs another hole # 6 
+Larry digs another hole # 7 
+Larry digs another hole # 8 
+Larry digs another hole # 9 
+Moe plants a bulb in a hole #5 
+Moe plants a bulb in a hole #6 
+Moe plants a bulb in a hole #7 
+Moe plants a bulb in a hole #8 
+Moe plants a bulb in a hole #9 
+Curly add the fertilizer to hole #5 
+Curly fills a planted hole #5 
+Curly add the fertilizer to hole #6 
+Curly fills a planted hole #6 
+Curly add the fertilizer to hole #7 
+Curly fills a planted hole #7 
+Curly add the fertilizer to hole #8 
+Curly fills a planted hole #8 
+Curly add the fertilizer to hole #9 
+Larry digs another hole # 10 
+Larry digs another hole # 11 
+Moe plants a bulb in a hole #10 
+Moe plants a bulb in a hole #11 
+Larry digs another hole # 12 
+Curly fills a planted hole #9 
+Curly add the fertilizer to hole #10 
+Moe plants a bulb in a hole #12 
+Larry digs another hole # 13 
+Curly fills a planted hole #10 
+Curly add the fertilizer to hole #11 
+Curly fills a planted hole #11 
+Curly add the fertilizer to hole #12 
+Moe plants a bulb in a hole #13 
+Larry digs another hole # 14 
+Curly fills a planted hole #12 
+Curly add the fertilizer to hole #13 
+Larry digs another hole # 15 
+Moe plants a bulb in a hole #14 
+Curly fills a planted hole #13 
+Curly add the fertilizer to hole #14 
+Moe plants a bulb in a hole #15 
+Larry digs another hole # 16 
+Curly fills a planted hole #14 
+Curly add the fertilizer to hole #15 
+Moe plants a bulb in a hole #16 
+Larry digs another hole # 17 
+Larry digs another hole # 18 
+Moe plants a bulb in a hole #17 
+Curly fills a planted hole #15 
+Curly add the fertilizer to hole #16 
+Curly fills a planted hole #16 
+Curly add the fertilizer to hole #17 
+Curly fills a planted hole #17 
+Moe plants a bulb in a hole #18 
+Curly add the fertilizer to hole #18 
+Larry digs another hole # 19 
+Curly fills a planted hole #18 
+Moe plants a bulb in a hole #19 
+Curly add the fertilizer to hole #19 
+Larry digs another hole # 20 
+Curly fills a planted hole #19 
+Moe plants a bulb in a hole #20 
+Curly add the fertilizer to hole #20 
+Larry digs another hole # 21 
+Larry digs another hole # 22 
+Moe plants a bulb in a hole #21 
+Moe plants a bulb in a hole #22 
+Larry digs another hole # 23 
+Curly fills a planted hole #20 
+Curly add the fertilizer to hole #21 
+Moe plants a bulb in a hole #23 
+Larry digs another hole # 24 
+Curly fills a planted hole #21 
+Curly add the fertilizer to hole #22 
+Moe plants a bulb in a hole #24 
+Larry digs another hole # 25 
+Larry digs another hole # 26 
+Moe plants a bulb in a hole #25 
+Moe plants a bulb in a hole #26 
+Curly fills a planted hole #22 
+Curly add the fertilizer to hole #23 
+Curly fills a planted hole #23 
+Curly add the fertilizer to hole #24 
+Larry digs another hole # 27 
+Curly fills a planted hole #24 
+Curly add the fertilizer to hole #25 
+Moe plants a bulb in a hole #27 
+Larry digs another hole # 28 
+Curly fills a planted hole #25 
+Curly add the fertilizer to hole #26 
+Moe plants a bulb in a hole #28 
+Larry digs another hole # 29 
+Larry digs another hole # 30 
+Moe plants a bulb in a hole #29 
+Moe plants a bulb in a hole #30 
+Curly fills a planted hole #26 
+Curly add the fertilizer to hole #27 
+Larry digs another hole # 31 
+Curly fills a planted hole #27 
+Curly add the fertilizer to hole #28 
+Curly fills a planted hole #28 
+Moe plants a bulb in a hole #31 
+Curly add the fertilizer to hole #29 
+Larry digs another hole # 32 
+Larry digs another hole # 33 
+Moe plants a bulb in a hole #32 
+Moe plants a bulb in a hole #33 
+Curly fills a planted hole #29 
+Curly add the fertilizer to hole #30 
+Larry digs another hole # 34 
+Curly fills a planted hole #30 
+Curly add the fertilizer to hole #31 
+Moe plants a bulb in a hole #34 
+Larry digs another hole # 35 
+Curly fills a planted hole #31 
+Curly add the fertilizer to hole #32 
+Larry digs another hole # 36 
+Moe plants a bulb in a hole #35 
+Moe plants a bulb in a hole #36 
+Curly fills a planted hole #32 
+Curly add the fertilizer to hole #33 
+Curly fills a planted hole #33 
+Curly add the fertilizer to hole #34 
+Larry digs another hole # 37 
+Curly fills a planted hole #34 
+Curly add the fertilizer to hole #35 
+Moe plants a bulb in a hole #37 
+Larry digs another hole # 38 
+Larry digs another hole # 39 
+Moe plants a bulb in a hole #38 
+Moe plants a bulb in a hole #39 
+Curly fills a planted hole #35 
+Curly add the fertilizer to hole #36 
+Larry digs another hole # 40 
+Curly fills a planted hole #36 
+Curly add the fertilizer to hole #37 
+Moe plants a bulb in a hole #40 
+Larry digs another hole # 41 
+Curly fills a planted hole #37 
+Curly add the fertilizer to hole #38 
+Moe plants a bulb in a hole #41 
+Larry digs another hole # 42 
+Curly fills a planted hole #38 
+Curly add the fertilizer to hole #39 
+Curly fills a planted hole #39 
+Curly add the fertilizer to hole #40 
+Moe plants a bulb in a hole #42 
+Larry digs another hole # 43 
+Curly fills a planted hole #40 
+Curly add the fertilizer to hole #41 
+Larry digs another hole # 44 
+Moe plants a bulb in a hole #43 
+Moe plants a bulb in a hole #44 
+Larry digs another hole # 45 
+Curly fills a planted hole #41 
+Curly add the fertilizer to hole #42 
+Moe plants a bulb in a hole #45 
+Larry digs another hole # 46 
+Curly fills a planted hole #42 
+Curly add the fertilizer to hole #43 
+Moe plants a bulb in a hole #46 
+Larry digs another hole # 47 
+Curly fills a planted hole #43 
+Curly add the fertilizer to hole #44 
+Moe plants a bulb in a hole #47 
+Larry digs another hole # 48 
+Curly fills a planted hole #44 
+Curly add the fertilizer to hole #45 
+Moe plants a bulb in a hole #48 
+Larry digs another hole # 49 
+Curly fills a planted hole #45 
+Curly add the fertilizer to hole #46 
+Moe plants a bulb in a hole #49 
+Larry digs another hole # 50 
+Curly fills a planted hole #46 
+Curly add the fertilizer to hole #47 
+Moe plants a bulb in a hole #50 
+Larry digs another hole # 51 
+Curly fills a planted hole #47 
+Curly add the fertilizer to hole #48 
+Moe plants a bulb in a hole #51 
+Larry digs another hole # 52 
+Curly fills a planted hole #48 
+Curly add the fertilizer to hole #49 
+Moe plants a bulb in a hole #52 
+Larry digs another hole # 53 
+Curly fills a planted hole #49 
+Curly add the fertilizer to hole #50 
+Curly fills a planted hole #50 
+Curly add the fertilizer to hole #51 
+Moe plants a bulb in a hole #53 
+Larry digs another hole # 54 
+Curly fills a planted hole #51 
+Curly add the fertilizer to hole #52 
+Moe plants a bulb in a hole #54 
+Larry digs another hole # 55 
+Curly fills a planted hole #52 
+Curly add the fertilizer to hole #53 
+Curly fills a planted hole #53 
+Curly add the fertilizer to hole #54 
+Moe plants a bulb in a hole #55 
+Larry digs another hole # 56 
+Curly fills a planted hole #54 
+Curly add the fertilizer to hole #55 
+Curly fills a planted hole #55 
+Moe plants a bulb in a hole #56 
+Curly add the fertilizer to hole #56 
+Curly fills a planted hole #56 
+Larry digs another hole # 57 
+Larry digs another hole # 58 
+Moe plants a bulb in a hole #57 
+Moe plants a bulb in a hole #58 
+Curly add the fertilizer to hole #57 
+Larry digs another hole # 59 
+Curly fills a planted hole #57 
+Curly add the fertilizer to hole #58 
+Curly fills a planted hole #58 
+Moe plants a bulb in a hole #59 
+Curly add the fertilizer to hole #59 
+Larry digs another hole # 60 
+Curly fills a planted hole #59 
+Moe plants a bulb in a hole #60 
+Curly add the fertilizer to hole #60 
+Larry digs another hole # 61 
+Curly fills a planted hole #60 
+Moe plants a bulb in a hole #61 
+Curly add the fertilizer to hole #61 
+Larry digs another hole # 62 
+Larry digs another hole # 63 
+Moe plants a bulb in a hole #62 
+Moe plants a bulb in a hole #63 
+Larry digs another hole # 64 
+Larry digs another hole # 65 
+Moe plants a bulb in a hole #64 
+Curly fills a planted hole #61 
+Curly add the fertilizer to hole #62 
+Curly fills a planted hole #62 
+Curly add the fertilizer to hole #63 
+Curly fills a planted hole #63 
+Moe plants a bulb in a hole #65 
+Curly add the fertilizer to hole #64 
+Larry digs another hole # 66 
+Larry digs another hole # 67 
+Moe plants a bulb in a hole #66 
+Moe plants a bulb in a hole #67 
+Larry digs another hole # 68 
+Curly fills a planted hole #64 
+Curly add the fertilizer to hole #65 
+Moe plants a bulb in a hole #68 
+Larry digs another hole # 69 
+Curly fills a planted hole #65 
+Curly add the fertilizer to hole #66 
+Moe plants a bulb in a hole #69 
+Larry digs another hole # 70 
+Curly fills a planted hole #66 
+Curly add the fertilizer to hole #67 
+Moe plants a bulb in a hole #70 
+Larry digs another hole # 71 
+Curly fills a planted hole #67 
+Curly add the fertilizer to hole #68 
+Moe plants a bulb in a hole #71 
+Larry digs another hole # 72 
+Curly fills a planted hole #68 
+Curly add the fertilizer to hole #69 
+Larry digs another hole # 73 
+Moe plants a bulb in a hole #72 
+Moe plants a bulb in a hole #73 
+Curly fills a planted hole #69 
+Curly add the fertilizer to hole #70 
+Larry digs another hole # 74 
+Curly fills a planted hole #70 
+Curly add the fertilizer to hole #71 
+Moe plants a bulb in a hole #74 
+Larry digs another hole # 75 
+Curly fills a planted hole #71 
+Curly add the fertilizer to hole #72 
+Curly fills a planted hole #72 
+Moe plants a bulb in a hole #75 
+Curly add the fertilizer to hole #73 
+Larry digs another hole # 76 
+Curly fills a planted hole #73 
+Curly add the fertilizer to hole #74 
+Moe plants a bulb in a hole #76 
+Larry digs another hole # 77 
+Curly fills a planted hole #74 
+Curly add the fertilizer to hole #75 
+Moe plants a bulb in a hole #77 
+Larry digs another hole # 78 
+Larry digs another hole # 79 
+Moe plants a bulb in a hole #78 
+Moe plants a bulb in a hole #79 
+Curly fills a planted hole #75 
+Curly add the fertilizer to hole #76 
+Larry digs another hole # 80 
+Curly fills a planted hole #76 
+Curly add the fertilizer to hole #77 
+Curly fills a planted hole #77 
+Curly add the fertilizer to hole #78 
+Moe plants a bulb in a hole #80 
+Larry digs another hole # 81 
+Larry digs another hole # 82 
+Moe plants a bulb in a hole #81 
+Curly fills a planted hole #78 
+Curly add the fertilizer to hole #79 
+Moe plants a bulb in a hole #82 
+Larry digs another hole # 83 
+Curly fills a planted hole #79 
+Curly add the fertilizer to hole #80 
+Curly fills a planted hole #80 
+Moe plants a bulb in a hole #83 
+Curly add the fertilizer to hole #81 
+Larry digs another hole # 84 
+Larry digs another hole # 85 
+Moe plants a bulb in a hole #84 
+Moe plants a bulb in a hole #85 
+Curly fills a planted hole #81 
+Curly add the fertilizer to hole #82 
+Larry digs another hole # 86 
+Curly fills a planted hole #82 
+Curly add the fertilizer to hole #83 
+Moe plants a bulb in a hole #86 
+Larry digs another hole # 87 
+Curly fills a planted hole #83 
+Curly add the fertilizer to hole #84 
+Moe plants a bulb in a hole #87 
+Larry digs another hole # 88 
+Curly fills a planted hole #84 
+Curly add the fertilizer to hole #85 
+Moe plants a bulb in a hole #88 
+Larry digs another hole # 89 
+Curly fills a planted hole #85 
+Curly add the fertilizer to hole #86 
+Moe plants a bulb in a hole #89 
+Larry digs another hole # 90 
+Curly fills a planted hole #86 
+Curly add the fertilizer to hole #87 
+Moe plants a bulb in a hole #90 
+Larry digs another hole # 91 
+Curly fills a planted hole #87 
+Curly add the fertilizer to hole #88 
+Curly fills a planted hole #88 
+Curly add the fertilizer to hole #89 
+Moe plants a bulb in a hole #91 
+Larry digs another hole # 92 
+Larry digs another hole # 93 
+Moe plants a bulb in a hole #92 
+Moe plants a bulb in a hole #93 
+Curly fills a planted hole #89 
+Curly add the fertilizer to hole #90 
+Larry digs another hole # 94 
+Curly fills a planted hole #90 
+Curly add the fertilizer to hole #91 
+Moe plants a bulb in a hole #94 
+Larry digs another hole # 95 
+Curly fills a planted hole #91 
+Curly add the fertilizer to hole #92 
+Moe plants a bulb in a hole #95 
+Larry digs another hole # 96 
+Curly fills a planted hole #92 
+Curly add the fertilizer to hole #93 
+Moe plants a bulb in a hole #96 
+Larry digs another hole # 97 
+Curly fills a planted hole #93 
+Curly add the fertilizer to hole #94 
+Curly fills a planted hole #94 
+Moe plants a bulb in a hole #97 
+Curly add the fertilizer to hole #95 
+Curly fills a planted hole #95 
+Curly add the fertilizer to hole #96 
+Curly fills a planted hole #96 
+Curly add the fertilizer to hole #97 
+Curly fills a planted hole #97 
+Larry digs another hole # 98 
+Larry digs another hole # 99 
+Moe plants a bulb in a hole #98 
+Moe plants a bulb in a hole #99 
+Curly add the fertilizer to hole #98 
+Curly fills a planted hole #98 
+Curly add the fertilizer to hole #99 
+Curly fills a planted hole #99 
+End run 
+timberlake {~/OS/proj2} > exit
+exit
+
+Script done on Mon 01 Nov 2010 10:57:23 AM EDT

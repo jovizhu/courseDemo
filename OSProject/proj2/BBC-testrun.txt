@@ -1,0 +1,417 @@
+Script started on Mon 01 Nov 2010 10:58:16 AM EDT
+timberlake {~/OS/proj2} > ./BBC
+Usage: BBC cooker casher racksize 
+timberlake {~/OS/proj2} > ./BBC 4 5 6
+cookers[4],  cahsers[5], customers[100],   racksize[6] 
+Begin run
+Custom[0]: Customer #0 come in
+Casher[0]: Accept an order
+Custom[1]: Customer #1 come in
+Casher[2]: Accept an order
+Cooker[0]: Make a burger
+Casher[0]: takes a burger to customer
+Cooker[1]: Make a burger
+Casher[2]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[2]: Customer #2 come in
+Cooker[2]: Make a burger
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Custom[3]: Customer #3 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Custom[4]: Customer #4 come in
+Cooker[0]: Make a burger
+Cooker[1]: Make a burger
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[3]: Make a burger
+Cooker[2]: Make a burger
+Custom[5]: Customer #5 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Custom[6]: Customer #6 come in
+Cooker[0]: Make a burger
+Cooker[1]: Make a burger
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[3]: Make a burger
+Cooker[2]: Make a burger
+Custom[7]: Customer #7 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Custom[8]: Customer #8 come in
+Cooker[0]: Make a burger
+Cooker[1]: Make a burger
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[9]: Customer #9 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[10]: Customer #10 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[11]: Customer #11 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[12]: Customer #12 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[13]: Customer #13 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[14]: Customer #14 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[15]: Customer #15 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[16]: Customer #16 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[17]: Customer #17 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[18]: Customer #18 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[19]: Customer #19 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[20]: Customer #20 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[21]: Customer #21 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[22]: Customer #22 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[23]: Customer #23 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[24]: Customer #24 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[25]: Customer #25 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[26]: Customer #26 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[27]: Customer #27 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[28]: Customer #28 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[29]: Customer #29 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[30]: Customer #30 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[31]: Customer #31 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[32]: Customer #32 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[33]: Customer #33 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[34]: Customer #34 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[35]: Customer #35 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[36]: Customer #36 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[37]: Customer #37 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[38]: Customer #38 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[39]: Customer #39 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[40]: Customer #40 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[41]: Customer #41 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[42]: Customer #42 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[43]: Customer #43 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[44]: Customer #44 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[45]: Customer #45 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[46]: Customer #46 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[47]: Customer #47 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[48]: Customer #48 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[49]: Customer #49 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[50]: Customer #50 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[51]: Customer #51 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[52]: Customer #52 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[53]: Customer #53 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[54]: Customer #54 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[55]: Customer #55 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[56]: Customer #56 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[57]: Customer #57 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[58]: Customer #58 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[59]: Customer #59 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[60]: Customer #60 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[61]: Customer #61 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[62]: Customer #62 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[63]: Customer #63 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[64]: Customer #64 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[65]: Customer #65 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[66]: Customer #66 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[67]: Customer #67 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[68]: Customer #68 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[69]: Customer #69 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[70]: Customer #70 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[71]: Customer #71 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[72]: Customer #72 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[73]: Customer #73 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[74]: Customer #74 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[75]: Customer #75 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[76]: Customer #76 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[77]: Customer #77 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[78]: Customer #78 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[79]: Customer #79 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[80]: Customer #80 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[81]: Customer #81 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[82]: Customer #82 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[83]: Customer #83 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[84]: Customer #84 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[85]: Customer #85 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[86]: Customer #86 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[87]: Customer #87 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[88]: Customer #88 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[89]: Customer #89 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[90]: Customer #90 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[91]: Customer #91 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[92]: Customer #92 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[93]: Customer #93 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[94]: Customer #94 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[95]: Customer #95 come in
+Casher[0]: Accept an order
+Casher[0]: takes a burger to customer
+Cooker[3]: Make a burger
+Custom[96]: Customer #96 come in
+Casher[2]: Accept an order
+Casher[2]: takes a burger to customer
+Cooker[1]: Make a burger
+Custom[97]: Customer #97 come in
+Casher[3]: Accept an order
+Casher[3]: takes a burger to customer
+Cooker[2]: Make a burger
+Custom[98]: Customer #98 come in
+Casher[4]: Accept an order
+Casher[4]: takes a burger to customer
+Cooker[0]: Make a burger
+Custom[99]: Customer #99 come in
+Casher[1]: Accept an order
+Casher[1]: takes a burger to customer
+Cooker[3]: Make a burger
+
+timberlake {~/OS/proj2} > exit
+exit
+
+Script done on Mon 01 Nov 2010 11:00:56 AM EDT

@@ -1,0 +1,309 @@
+Script started on Mon 01 Nov 2010 10:55:41 AM EDT
+timberlake {~/OS/proj2} > LCM1 [K[K[K[K./LCM1 5
+Maximun number of unfilled holes: 5 
+Begin run
+Larry digs another hole # 0 
+Larry digs another hole # 1 
+Larry digs another hole # 2 
+Moe plants a seed in a hole # 0 
+Moe plants a seed in a hole # 1 
+Moe plants a seed in a hole # 2 
+Larry digs another hole # 3 
+Larry digs another hole # 4 
+Moe plants a seed in a hole # 3 
+Moe plants a seed in a hole # 4 
+Curty fills a planted hole #0 
+Curty fills a planted hole #1 
+Curty fills a planted hole #2 
+Curty fills a planted hole #3 
+Curty fills a planted hole #4 
+Larry digs another hole # 5 
+Larry digs another hole # 6 
+Larry digs another hole # 7 
+Larry digs another hole # 8 
+Larry digs another hole # 9 
+Moe plants a seed in a hole # 5 
+Moe plants a seed in a hole # 6 
+Moe plants a seed in a hole # 7 
+Moe plants a seed in a hole # 8 
+Moe plants a seed in a hole # 9 
+Curty fills a planted hole #5 
+Curty fills a planted hole #6 
+Curty fills a planted hole #7 
+Curty fills a planted hole #8 
+Curty fills a planted hole #9 
+Larry digs another hole # 10 
+Larry digs another hole # 11 
+Larry digs another hole # 12 
+Larry digs another hole # 13 
+Larry digs another hole # 14 
+Moe plants a seed in a hole # 10 
+Moe plants a seed in a hole # 11 
+Moe plants a seed in a hole # 12 
+Moe plants a seed in a hole # 13 
+Moe plants a seed in a hole # 14 
+Curty fills a planted hole #10 
+Curty fills a planted hole #11 
+Curty fills a planted hole #12 
+Curty fills a planted hole #13 
+Curty fills a planted hole #14 
+Larry digs another hole # 15 
+Larry digs another hole # 16 
+Larry digs another hole # 17 
+Larry digs another hole # 18 
+Larry digs another hole # 19 
+Moe plants a seed in a hole # 15 
+Moe plants a seed in a hole # 16 
+Moe plants a seed in a hole # 17 
+Moe plants a seed in a hole # 18 
+Moe plants a seed in a hole # 19 
+Curty fills a planted hole #15 
+Curty fills a planted hole #16 
+Curty fills a planted hole #17 
+Curty fills a planted hole #18 
+Curty fills a planted hole #19 
+Larry digs another hole # 20 
+Larry digs another hole # 21 
+Larry digs another hole # 22 
+Moe plants a seed in a hole # 20 
+Moe plants a seed in a hole # 21 
+Moe plants a seed in a hole # 22 
+Larry digs another hole # 23 
+Larry digs another hole # 24 
+Moe plants a seed in a hole # 23 
+Moe plants a seed in a hole # 24 
+Curty fills a planted hole #20 
+Curty fills a planted hole #21 
+Curty fills a planted hole #22 
+Curty fills a planted hole #23 
+Curty fills a planted hole #24 
+Larry digs another hole # 25 
+Larry digs another hole # 26 
+Larry digs another hole # 27 
+Larry digs another hole # 28 
+Larry digs another hole # 29 
+Moe plants a seed in a hole # 25 
+Moe plants a seed in a hole # 26 
+Moe plants a seed in a hole # 27 
+Moe plants a seed in a hole # 28 
+Moe plants a seed in a hole # 29 
+Curty fills a planted hole #25 
+Curty fills a planted hole #26 
+Curty fills a planted hole #27 
+Curty fills a planted hole #28 
+Curty fills a planted hole #29 
+Larry digs another hole # 30 
+Larry digs another hole # 31 
+Larry digs another hole # 32 
+Larry digs another hole # 33 
+Larry digs another hole # 34 
+Moe plants a seed in a hole # 30 
+Moe plants a seed in a hole # 31 
+Moe plants a seed in a hole # 32 
+Moe plants a seed in a hole # 33 
+Moe plants a seed in a hole # 34 
+Curty fills a planted hole #30 
+Curty fills a planted hole #31 
+Curty fills a planted hole #32 
+Curty fills a planted hole #33 
+Curty fills a planted hole #34 
+Larry digs another hole # 35 
+Larry digs another hole # 36 
+Larry digs another hole # 37 
+Larry digs another hole # 38 
+Larry digs another hole # 39 
+Moe plants a seed in a hole # 35 
+Moe plants a seed in a hole # 36 
+Moe plants a seed in a hole # 37 
+Moe plants a seed in a hole # 38 
+Moe plants a seed in a hole # 39 
+Curty fills a planted hole #35 
+Curty fills a planted hole #36 
+Curty fills a planted hole #37 
+Curty fills a planted hole #38 
+Curty fills a planted hole #39 
+Larry digs another hole # 40 
+Larry digs another hole # 41 
+Larry digs another hole # 42 
+Larry digs another hole # 43 
+Larry digs another hole # 44 
+Moe plants a seed in a hole # 40 
+Moe plants a seed in a hole # 41 
+Moe plants a seed in a hole # 42 
+Moe plants a seed in a hole # 43 
+Moe plants a seed in a hole # 44 
+Curty fills a planted hole #40 
+Curty fills a planted hole #41 
+Curty fills a planted hole #42 
+Curty fills a planted hole #43 
+Curty fills a planted hole #44 
+Larry digs another hole # 45 
+Larry digs another hole # 46 
+Larry digs another hole # 47 
+Larry digs another hole # 48 
+Larry digs another hole # 49 
+Moe plants a seed in a hole # 45 
+Moe plants a seed in a hole # 46 
+Moe plants a seed in a hole # 47 
+Moe plants a seed in a hole # 48 
+Moe plants a seed in a hole # 49 
+Curty fills a planted hole #45 
+Curty fills a planted hole #46 
+Curty fills a planted hole #47 
+Curty fills a planted hole #48 
+Curty fills a planted hole #49 
+Larry digs another hole # 50 
+Larry digs another hole # 51 
+Moe plants a seed in a hole # 50 
+Moe plants a seed in a hole # 51 
+Larry digs another hole # 52 
+Larry digs another hole # 53 
+Moe plants a seed in a hole # 52 
+Moe plants a seed in a hole # 53 
+Larry digs another hole # 54 
+Curty fills a planted hole #50 
+Curty fills a planted hole #51 
+Curty fills a planted hole #52 
+Curty fills a planted hole #53 
+Moe plants a seed in a hole # 54 
+Curty fills a planted hole #54 
+Larry digs another hole # 55 
+Larry digs another hole # 56 
+Larry digs another hole # 57 
+Larry digs another hole # 58 
+Larry digs another hole # 59 
+Moe plants a seed in a hole # 55 
+Moe plants a seed in a hole # 56 
+Moe plants a seed in a hole # 57 
+Moe plants a seed in a hole # 58 
+Moe plants a seed in a hole # 59 
+Curty fills a planted hole #55 
+Curty fills a planted hole #56 
+Curty fills a planted hole #57 
+Curty fills a planted hole #58 
+Curty fills a planted hole #59 
+Larry digs another hole # 60 
+Larry digs another hole # 61 
+Moe plants a seed in a hole # 60 
+Moe plants a seed in a hole # 61 
+Larry digs another hole # 62 
+Curty fills a planted hole #60 
+Curty fills a planted hole #61 
+Moe plants a seed in a hole # 62 
+Larry digs another hole # 63 
+Larry digs another hole # 64 
+Moe plants a seed in a hole # 63 
+Moe plants a seed in a hole # 64 
+Larry digs another hole # 65 
+Larry digs another hole # 66 
+Moe plants a seed in a hole # 65 
+Moe plants a seed in a hole # 66 
+Curty fills a planted hole #62 
+Curty fills a planted hole #63 
+Curty fills a planted hole #64 
+Curty fills a planted hole #65 
+Curty fills a planted hole #66 
+Larry digs another hole # 67 
+Larry digs another hole # 68 
+Larry digs another hole # 69 
+Larry digs another hole # 70 
+Moe plants a seed in a hole # 67 
+Moe plants a seed in a hole # 68 
+Moe plants a seed in a hole # 69 
+Moe plants a seed in a hole # 70 
+Larry digs another hole # 71 
+Curty fills a planted hole #67 
+Curty fills a planted hole #68 
+Curty fills a planted hole #69 
+Curty fills a planted hole #70 
+Moe plants a seed in a hole # 71 
+Larry digs another hole # 72 
+Larry digs another hole # 73 
+Moe plants a seed in a hole # 72 
+Moe plants a seed in a hole # 73 
+Larry digs another hole # 74 
+Larry digs another hole # 75 
+Moe plants a seed in a hole # 74 
+Moe plants a seed in a hole # 75 
+Curty fills a planted hole #71 
+Curty fills a planted hole #72 
+Curty fills a planted hole #73 
+Curty fills a planted hole #74 
+Larry digs another hole # 76 
+Larry digs another hole # 77 
+Moe plants a seed in a hole # 76 
+Curty fills a planted hole #75 
+Curty fills a planted hole #76 
+Moe plants a seed in a hole # 77 
+Larry digs another hole # 78 
+Curty fills a planted hole #77 
+Moe plants a seed in a hole # 78 
+Larry digs another hole # 79 
+Curty fills a planted hole #78 
+Moe plants a seed in a hole # 79 
+Curty fills a planted hole #79 
+Larry digs another hole # 80 
+Larry digs another hole # 81 
+Larry digs another hole # 82 
+Larry digs another hole # 83 
+Larry digs another hole # 84 
+Moe plants a seed in a hole # 80 
+Moe plants a seed in a hole # 81 
+Moe plants a seed in a hole # 82 
+Moe plants a seed in a hole # 83 
+Moe plants a seed in a hole # 84 
+Curty fills a planted hole #80 
+Curty fills a planted hole #81 
+Curty fills a planted hole #82 
+Curty fills a planted hole #83 
+Curty fills a planted hole #84 
+Larry digs another hole # 85 
+Larry digs another hole # 86 
+Larry digs another hole # 87 
+Larry digs another hole # 88 
+Moe plants a seed in a hole # 85 
+Moe plants a seed in a hole # 86 
+Moe plants a seed in a hole # 87 
+Moe plants a seed in a hole # 88 
+Larry digs another hole # 89 
+Curty fills a planted hole #85 
+Curty fills a planted hole #86 
+Curty fills a planted hole #87 
+Curty fills a planted hole #88 
+Moe plants a seed in a hole # 89 
+Curty fills a planted hole #89 
+Larry digs another hole # 90 
+Larry digs another hole # 91 
+Larry digs another hole # 92 
+Larry digs another hole # 93 
+Larry digs another hole # 94 
+Moe plants a seed in a hole # 90 
+Moe plants a seed in a hole # 91 
+Moe plants a seed in a hole # 92 
+Moe plants a seed in a hole # 93 
+Moe plants a seed in a hole # 94 
+Curty fills a planted hole #90 
+Curty fills a planted hole #91 
+Curty fills a planted hole #92 
+Curty fills a planted hole #93 
+Curty fills a planted hole #94 
+Larry digs another hole # 95 
+Larry digs another hole # 96 
+Larry digs another hole # 97 
+Larry digs another hole # 98 
+Moe plants a seed in a hole # 95 
+Moe plants a seed in a hole # 96 
+Moe plants a seed in a hole # 97 
+Moe plants a seed in a hole # 98 
+Larry digs another hole # 99 
+Curty fills a planted hole #95 
+Curty fills a planted hole #96 
+Curty fills a planted hole #97 
+Curty fills a planted hole #98 
+Moe plants a seed in a hole # 99 
+Curty fills a planted hole #99 
+End run 
+timberlake {~/OS/proj2} > exit
+exit
+
+Script done on Mon 01 Nov 2010 10:56:05 AM EDT

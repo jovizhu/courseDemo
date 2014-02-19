@@ -1,0 +1,217 @@
+Script started on Mon 01 Nov 2010 10:57:56 AM EDT
+timberlake {~/OS/proj2} > ./SER
+Begin run
+Reindeer[0]: I am Reineer # 0 
+Reindeer[1]: I am Reineer # 1 
+Reindeer[2]: I am Reineer # 2 
+Reindeer[3]: I am Reineer # 3 
+Reindeer[8]: I am Reineer # 8 
+Santa      : I am sleeping 
+Reindeer[5]: I am Reineer # 5 
+Reindeer[6]: I am Reineer # 6 
+Reindeer[7]: I am Reineer # 7 
+Reindeer[4]: I am Reineer # 4 
+Elf[6]     : Oh, it is so difficult, neet to vist Santa
+Elf[8]     : Oh, it is so difficult, neet to vist Santa
+Elf[5]     : Oh, it is so difficult, neet to vist Santa
+Elf[5]     : Wait outsied Santa's house
+Elf[1]     : Oh, it is so difficult, neet to vist Santa
+Elf[1]     : Hey, Wake up, Santa
+Elf[1]     : Ask a question and wait to be solved
+Elf[3]     : Oh, it is so difficult, neet to vist Santa
+Elf[2]     : Oh, it is so difficult, neet to vist Santa
+Elf[4]     : Oh, it is so difficult, neet to vist Santa
+Elf[7]     : Oh, it is so difficult, neet to vist Santa
+Reindeer[0]: Wow, it is Christmas, back to Santa
+Reindeer[0]: Oh, Wait outsied Santa's house
+Reindeer[1]: Wow, it is Christmas, back to Santa
+Reindeer[1]: Oh, Wait outsied Santa's house
+Reindeer[8]: Wow, it is Christmas, back to Santa
+Reindeer[8]: Oh, Wait outsied Santa's house
+Reindeer[5]: Wow, it is Christmas, back to Santa
+Reindeer[5]: Oh, Wait outsied Santa's house
+Reindeer[7]: Wow, it is Christmas, back to Santa
+Reindeer[7]: Oh, Wait outsied Santa's house
+Reindeer[3]: Wow, it is Christmas, back to Santa
+Elf[0]     : Oh, it is so difficult, neet to vist Santa
+Santa      : I was waked up by Elf 
+Santa      : Solve Elf Problem 
+Reindeer[4]: Wow, it is Christmas, back to Santa
+Reindeer[4]: Oh, Wait outsied Santa's house
+Elf[8]     : Wait outsied Santa's house
+Elf[8]     : Ask a question and wait to be solved
+Reindeer[3]: Oh, Wait outsied Santa's house
+Elf[1]     : My Problem was solved
+Elf[1]     : I will back to do the toys
+Elf[3]     : Wait outsied Santa's house
+Reindeer[2]: Wow, it is Christmas, back to Santa
+Reindeer[2]: Oh, Wait outsied Santa's house
+Elf[5]     : Ask a question and wait to be solved
+Santa      : Solve Elf Problem 
+Santa      : Solve Elf Problem 
+Santa      : I am sleeping 
+Reindeer[6]: Wow, it is Christmas, back to Santa
+Reindeer[6]: Hey, Wakeup, Santa
+Elf[5]     : My Problem was solved
+Elf[5]     : I will back to do the toys
+Santa      : I was waked up by Reindeer 
+Elf[8]     : My Problem was solved
+Reindeer[6]: Fly off to deliver the toys
+Santa      : Deliver all toys and return 
+Santa      : Reindeer, You can bakc to vacation now
+Santa      : I am sleeping 
+Reindeer[0]: Fly off to deliver the toys
+Reindeer[0]: I will back for long vacation on the beaches
+Reindeer[6]: I will back for long vacation on the beaches
+Reindeer[8]: Fly off to deliver the toys
+Reindeer[8]: I will back for long vacation on the beaches
+Reindeer[7]: Fly off to deliver the toys
+Reindeer[7]: I will back for long vacation on the beaches
+Reindeer[2]: Fly off to deliver the toys
+Reindeer[2]: I will back for long vacation on the beaches
+Elf[2]     : Wait outsied Santa's house
+Reindeer[4]: Fly off to deliver the toys
+Reindeer[4]: I will back for long vacation on the beaches
+Reindeer[3]: Fly off to deliver the toys
+Reindeer[3]: I will back for long vacation on the beaches
+Reindeer[5]: Fly off to deliver the toys
+Reindeer[5]: I will back for long vacation on the beaches
+Reindeer[1]: Fly off to deliver the toys
+Reindeer[1]: I will back for long vacation on the beaches
+Elf[8]     : I will back to do the toys
+Elf[4]     : Hey, Wake up, Santa
+Elf[4]     : Ask a question and wait to be solved
+Santa      : I was waked up by Elf 
+Elf[3]     : Ask a question and wait to be solved
+Santa      : Solve Elf Problem 
+Elf[2]     : Ask a question and wait to be solved
+Elf[2]     : My Problem was solved
+Elf[2]     : I will back to do the toys
+Elf[6]     : Wait outsied Santa's house
+Santa      : Solve Elf Problem 
+Elf[3]     : My Problem was solved
+Elf[3]     : I will back to do the toys
+Elf[7]     : Wait outsied Santa's house
+Santa      : Solve Elf Problem 
+Santa      : I am sleeping 
+Elf[4]     : My Problem was solved
+Elf[4]     : I will back to do the toys
+Elf[0]     : Hey, Wake up, Santa
+Elf[0]     : Ask a question and wait to be solved
+Santa      : I was waked up by Elf 
+Santa      : Solve Elf Problem 
+Elf[6]     : Ask a question and wait to be solved
+Elf[7]     : Ask a question and wait to be solved
+Santa      : Solve Elf Problem 
+Santa      : Solve Elf Problem 
+Santa      : I am sleeping 
+Elf[6]     : My Problem was solved
+Elf[6]     : I will back to do the toys
+Elf[7]     : My Problem was solved
+Elf[7]     : I will back to do the toys
+Elf[0]     : My Problem was solved
+Elf[0]     : I will back to do the toys
+Elf[5]     : Oh, it is so difficult, neet to vist Santa
+Reindeer[2]: Wow, it is Christmas, back to Santa
+Reindeer[2]: Oh, Wait outsied Santa's house
+Reindeer[0]: Wow, it is Christmas, back to Santa
+Reindeer[0]: Oh, Wait outsied Santa's house
+Reindeer[6]: Wow, it is Christmas, back to Santa
+Reindeer[6]: Oh, Wait outsied Santa's house
+Reindeer[7]: Wow, it is Christmas, back to Santa
+Reindeer[7]: Oh, Wait outsied Santa's house
+Reindeer[5]: Wow, it is Christmas, back to Santa
+Reindeer[5]: Oh, Wait outsied Santa's house
+Elf[8]     : Oh, it is so difficult, neet to vist Santa
+Elf[8]     : Wait outsied Santa's house
+Elf[1]     : Oh, it is so difficult, neet to vist Santa
+Reindeer[8]: Wow, it is Christmas, back to Santa
+Reindeer[8]: Oh, Wait outsied Santa's house
+Reindeer[1]: Wow, it is Christmas, back to Santa
+Reindeer[1]: Oh, Wait outsied Santa's house
+Reindeer[4]: Wow, it is Christmas, back to Santa
+Reindeer[4]: Oh, Wait outsied Santa's house
+Elf[1]     : Wait outsied Santa's house
+Elf[5]     : Hey, Wake up, Santa
+Elf[5]     : Ask a question and wait to be solved
+Santa      : I was waked up by Elf 
+Santa      : Solve Elf Problem 
+Santa      : Solve Elf Problem 
+Santa      : Solve Elf Problem 
+Elf[5]     : My Problem was solved
+Elf[5]     : I will back to do the toys
+Elf[8]     : Ask a question and wait to be solved
+Elf[8]     : My Problem was solved
+Elf[8]     : I will back to do the toys
+Elf[1]     : Ask a question and wait to be solved
+Santa      : I am sleeping 
+Elf[1]     : My Problem was solved
+Elf[1]     : I will back to do the toys
+Elf[7]     : Oh, it is so difficult, neet to vist Santa
+Elf[7]     : Wait outsied Santa's house
+Elf[3]     : Oh, it is so difficult, neet to vist Santa
+Elf[3]     : Wait outsied Santa's house
+Reindeer[3]: Wow, it is Christmas, back to Santa
+Reindeer[3]: Hey, Wakeup, Santa
+Elf[0]     : Oh, it is so difficult, neet to vist Santa
+Elf[0]     : Hey, Wake up, Santa
+Elf[0]     : Ask a question and wait to be solved
+Elf[2]     : Oh, it is so difficult, neet to vist Santa
+Elf[4]     : Oh, it is so difficult, neet to vist Santa
+Santa      : I was waked up by Reindeer 
+Elf[6]     : Oh, it is so difficult, neet to vist Santa
+Reindeer[1]: Fly off to deliver the toys
+Reindeer[3]: Fly off to deliver the toys
+Reindeer[0]: Fly off to deliver the toys
+Reindeer[2]: Fly off to deliver the toys
+Reindeer[7]: Fly off to deliver the toys
+Reindeer[5]: Fly off to deliver the toys
+Reindeer[8]: Fly off to deliver the toys
+Reindeer[4]: Fly off to deliver the toys
+Santa      : Deliver all toys and return 
+Santa      : Reindeer, You can bakc to vacation now
+Reindeer[5]: I will back for long vacation on the beaches
+Santa      : I am sleeping 
+Santa      : I was waked up by Elf 
+Santa      : Solve Elf Problem 
+Elf[7]     : Ask a question and wait to be solved
+Elf[0]     : My Problem was solved
+Reindeer[8]: I will back for long vacation on the beaches
+Reindeer[2]: I will back for long vacation on the beaches
+Reindeer[0]: I will back for long vacation on the beaches
+Reindeer[4]: I will back for long vacation on the beaches
+Reindeer[7]: I will back for long vacation on the beaches
+Reindeer[3]: I will back for long vacation on the beaches
+Reindeer[6]: Fly off to deliver the toys
+Reindeer[6]: I will back for long vacation on the beaches
+Reindeer[1]: I will back for long vacation on the beaches
+Elf[0]     : I will back to do the toys
+Elf[3]     : Ask a question and wait to be solved
+Santa      : Solve Elf Problem 
+Santa      : Solve Elf Problem 
+Elf[4]     : Wait outsied Santa's house
+Elf[7]     : My Problem was solved
+Elf[7]     : I will back to do the toys
+Santa      : I am sleeping 
+Elf[2]     : Wait outsied Santa's house
+Elf[3]     : My Problem was solved
+Elf[3]     : I will back to do the toys
+Elf[6]     : Hey, Wake up, Santa
+Elf[6]     : Ask a question and wait to be solved
+Santa      : I was waked up by Elf 
+Santa      : Solve Elf Problem 
+Santa      : Solve Elf Problem 
+Santa      : Solve Elf Problem 
+Elf[4]     : Ask a question and wait to be solved
+Elf[4]     : My Problem was solved
+Elf[4]     : I will back to do the toys
+Elf[2]     : Ask a question and wait to be solved
+Elf[2]     : My Problem was solved
+Elf[2]     : I will back to do the toys
+Elf[6]     : My Problem was solved
+Elf[6]     : I will back to do the toys
+End run 
+timberlake {~/OS/proj2} > exit
+exit
+
+Script done on Mon 01 Nov 2010 10:58:07 AM EDT
